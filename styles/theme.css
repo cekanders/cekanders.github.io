@@ -85,6 +85,7 @@ a:active{
 .gallery {
     display: flex;
     flex-direction: row;
+    padding-left: 20px;
     
 }
 
@@ -163,3 +164,65 @@ img {
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        font-family: "Avenir", sans-serif;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    h1{
+        font-family: "Avenir", sans-serif;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .gallery {
+        display: block;
+        
+    }
+
+    p {
+        font-family: "Avenir", sans-serif;
+        font-size: 15px;
+        margin: 0px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .row2{
+        display: block;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .intro {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .intro p {
+        font-size: 40px ;
+        font-family: "Avenir Heavy", sans-serif;
+    }
+
+    img {
+        max-width: 80%;
+        height: auto;
+        padding-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    .narrow {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+  }
