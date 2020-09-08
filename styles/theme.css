@@ -1,0 +1,165 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    width: 100%;
+    font-family: "Avenir", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+h1{
+    font-family: "Avenir", sans-serif;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: "Avenir", sans-serif;
+}
+
+
+p {
+    font-family: "Avenir", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: #7C38F2;
+}
+
+a:active{
+    color: #7C38F2;
+}
+
+.alignleft {
+    float:left;
+}
+
+.alignright {
+	float: right;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.intro2 {
+    padding-bottom: 50px;
+}
+
+.intro2 p{
+    font-size: 25px;
+}
+
+.intro p {
+    font-size: 50px ;
+    font-family: "Avenir Heavy", sans-serif;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+
+.gallery a img:last-child {
+    display: none;  
+  }
+.gallery a:hover img:last-child {
+    display: block;  
+  }
+.gallery a:hover img:first-child {
+    display: none;  
+  }
+
+.tag p {
+    font-size: 18px;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy';
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.title p {
+    font-size: 40px;
+    font-family: "Avenir Heavy", sans-serif;
+    padding-bottom: 20px;
+}
+
+.title2 p {
+    font-size: 40px;
+    font-family: "Avenir Heavy", sans-serif;
+    padding-top: 50px;
+}
+
+.small p {
+    font-size: 18px;
+}
+
+.narrow {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.list1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.space {
+    padding-bottom: 20px;
+}
+
+.center {
+    padding-left: 18%;
+}
+
+.new_spacing {
+    padding: 0;
+    margin: 0;
+}
