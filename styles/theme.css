@@ -96,7 +96,6 @@ img {
     padding-right: 30px;
 }
 
-
 .gallery a img:last-child {
     display: none;  
   }
@@ -152,6 +151,24 @@ img {
     padding-top: 40px;
 }
 
+.row2 a:link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy';
+}
+
+.row2 a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy';
+}
+
+.row2 a:hover{
+    text-decoration: none;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy';
+}
+
 .space {
     padding-bottom: 20px;
 }
@@ -165,14 +182,33 @@ img {
     margin: 0;
 }
 
+.current_page {
+    border-bottom: solid;
+    border-color: #7C38F2;
+    background-color: white;
+    padding: 5px;
+    border-width: 5px;
+}
+
+@media (max-width: 1205px) {
+    .row2 img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
 @media (max-width: 600px) {
     body {
         width: 100%;
         font-family: "Avenir", sans-serif;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 50px;
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    body p {
+       margin-left: 18px;
     }
 
     h1{
@@ -196,24 +232,46 @@ img {
 
     .row2{
         display: block;
+        flex-direction: column-reverse;
+
+    }
+
+    .row2 img{
+        margin-left: 20%;
     }
 
     .row{
         display: block;
     }
 
-    .intro {
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
 
     .intro p {
-        font-size: 40px ;
+        font-size: 75px ;
         font-family: "Avenir Heavy", sans-serif;
     }
 
+    .alignleft img {
+        max-width: 70%;
+        padding-bottom: 0px;
+        padding-right: 2px;
+        padding-left: 18px;
+    }
+
+    .alignright li {
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 3px;
+    }
+
+    .current_page {
+        border-width: 2px;
+        padding: 0px;
+    }
+
+
     img {
-        max-width: 80%;
+        max-width: 100%;
         height: auto;
         padding-bottom: 30px;
         padding-right: 30px;
@@ -226,3 +284,5 @@ img {
 
 
   }
+
+  
