@@ -36,4 +36,6 @@
     </div>
 
     <p>Sage and Sound is a health and wellness space soon to be open in NYC. 
-        We have been working to design and develop a site. I specifically worked on designs for the blog as well as developing pricing strategy for hosting an online video streaming platform for the Study.</p>
+        We have been working to design and develop a site. 
+        I specifically worked on designs for the blog as well as developing pricing strategy for hosting an online video streaming platform for the Study.
+        More details to come.</p>
