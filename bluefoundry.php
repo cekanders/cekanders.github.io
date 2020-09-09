@@ -44,19 +44,15 @@
     <p>I worked to design onboarding email templates for Blue Foundry Bank, a regional bank based in New Jersey.
         Blue Foundry Bank is a bank targeting "movers and shakers," offering personal banking and business banking plans.
         In this process, I conducted market research to understand the customers and their needs, created a customer journey map and iterated on template designs for two different products.
-        We developed templates for the AxisChecking account (personal) as well as Blue Carbon banking (business).</p>
+        We developed templates for the AxisChecking account (personal) as well as Blue Carbon banking (business). 
+        More details to come.</p>
 
-    <div class="tag">
-        <p>MARKET RESEARCH</p>
-    </div>
-
-    <div class="tag">
-        <p>CUSTOMER JOURNEY MAP</p>
-    </div>
+   
 
 
 
 
 </div>
 </body>
+
 
