@@ -69,7 +69,7 @@ a:active{
 }
 
 .intro2 {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .intro2 p{
@@ -96,16 +96,6 @@ img {
     padding-right: 30px;
 }
 
-.gallery a img:last-child {
-    display: none;  
-  }
-.gallery a:hover img:last-child {
-    display: block;  
-  }
-.gallery a:hover img:first-child {
-    display: none;  
-  }
-
 .tag p {
     font-size: 18px;
     color: #7C38F2;
@@ -114,6 +104,27 @@ img {
     padding-top: 30px;
 }
 
+.newtag p {
+    font-size: 25px;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy';
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.button p{
+    font-size: 15px;
+    color: #7C38F2;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    border: solid;
+    border-color: #7C38F2;
+    border-width: 1px;
+}
 .title p {
     font-size: 40px;
     font-family: "Avenir Heavy", sans-serif;
@@ -173,6 +184,10 @@ img {
     padding-bottom: 20px;
 }
 
+.longspace {
+    padding-bottom: 50px;
+}
+
 .center {
     padding-left: 18%;
 }
@@ -180,6 +195,15 @@ img {
 .new_spacing {
     padding: 0;
     margin: 0;
+}
+
+.first {
+    width: 80%;
+}
+
+
+.second {
+    width: 100%;
 }
 
 .current_page {
@@ -283,4 +307,5 @@ img {
     }
 
 
-  }  
+  }
+
