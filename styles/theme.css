@@ -124,6 +124,7 @@ img {
     border: solid;
     border-color: #7C38F2;
     border-width: 1px;
+    border-radius: 10px;
 }
 .title p {
     font-size: 40px;
@@ -309,3 +310,4 @@ img {
 
   }
 
+  
