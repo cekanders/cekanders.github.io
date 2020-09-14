@@ -15,5 +15,5 @@ include("includes/nav.php"); ?>
     
 </div>
 
-<p>I am passionate about solving problems to create meaningful change for individuals and organizations through digital platforms. In my free time, I enjoy running, spending time with my friends and family, trying new restaurants in Ithaca and traveling.
+<p>I am passionate about solving problems to create meaningful change for individuals and organizations through digital platforms. In my free time, I enjoy running, spending time with my friends and family, trying new restaurants in Ithaca, and traveling.
 <br></br>If you would like to contact me, feel free to send me an email at cek223@cornell.edu.</p>
