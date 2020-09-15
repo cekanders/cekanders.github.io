@@ -14,15 +14,15 @@
             <p>Parachute Email Campaign</p>
         </div>
 
-        <div class='small'>
-            <span style="font-family: Avenir Heavy">DURATION</span><br> May-August 2020 (12 weeks)
+        <div class='small2'>
+            <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
-            <span style="font-family: Avenir Heavy">TEAM</span><br> Katharina Ruckelshausen-Oni (Account Manager), Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Katharina Ruckelshausen-Oni (Account Manager), Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
             <br>
-            <span style="font-family: Avenir Heavy">FOCUS</span><br> Market Research, Data Analysis, Customer Segmentation, Visual Design <br>
+            <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Market Research, Data Analysis, Customer Segmentation, Visual Design <br>
             <br>
-            <span style="font-family: Avenir Heavy">TOOLS</span><br> Python, Figma, Sketch, Frontitude</p>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Python, Figma, Sketch, Frontitude</p>
         </div>
     </div>
 
@@ -68,7 +68,7 @@
     <p>
 
 
-        <div class='small2'>
+        <div class='small'>
             <p><span style="font-family: Avenir Heavy">SHAP Values</span></p>
         </div>
 
