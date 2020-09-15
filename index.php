@@ -27,7 +27,7 @@ include("includes/nav.php"); ?>
     </div>
 
     <div class='second'>
-        COURSEWORK
+        <div class='small'><p>COURSEWORK</p></div>
         <div class='newtag'><p>SoundCloud</p></div>
         <p>UX case study exploring user interactions through comments on SoundCloud.</p>
         <div class='space'></div>
@@ -53,7 +53,7 @@ include("includes/nav.php"); ?>
     </div>
 
     <div class='second'>
-        INTERNSHIP
+        <div class='small'><p>INTERNSHIP</p></div>
         <div class='newtag'><p>Parachute Digital Solutions</p></div>
         <p>Email campaign promoting an exclusive insurance offer for  eligible organization members.</p>
         <div class='space'></div>
@@ -71,7 +71,7 @@ include("includes/nav.php"); ?>
     </div>
 
     <div class='second'>
-        INTERNSHIP
+        <div class='small'><p>INTERNSHIP</p></div>
         <div class='newtag'><p>Blue Foundry Bank</p></div>
         <p>Onboarding email series for digital banking products. </p>
         <div class='space'></div>
@@ -89,7 +89,7 @@ include("includes/nav.php"); ?>
     </div>
 
     <div class='second'>
-        INTERNSHIP
+        <div class='small'><p>INTERNSHIP</p></div>
         <div class='newtag'><p>Sage and Sound</p></div>
         <p>Health and wellness space based in NYC website, blog, and virtual community design.</p>
         <div class='space'></div>
@@ -97,4 +97,4 @@ include("includes/nav.php"); ?>
     </div>
 </div>
 
-</body>
+<?php include("includes/footer.php"); ?>
