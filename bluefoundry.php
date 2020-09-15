@@ -19,7 +19,7 @@
             <p>Blue Foundry Bank</p>
         </div>
 
-        <div class='small'>
+        <div class='small2'>
             <span style="font-family: Avenir Heavy">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
@@ -53,6 +53,7 @@
 
 
 </div>
-</body>
+
+<?php include("includes/footer.php"); ?>
 
 
