@@ -20,14 +20,14 @@
         </div>
 
         <div class='small2'>
-            <span style="font-family: Avenir Heavy">DURATION</span><br> May-August 2020 (12 weeks)
+            <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
-            <span style="font-family: Avenir Heavy">TEAM</span><br> Johnnie Aiello (UX Director), Asia Johnson (Copywriter) <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Johnnie Aiello (UX Director), Asia Johnson (Copywriter) <br>
             <br>
-            <span style="font-family: Avenir Heavy">FOCUS</span><br>Market Research, Visual Design<br>
+            <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br>Market Research, Visual Design<br>
             <br>
-            <span style="font-family: Avenir Heavy">TOOLS</span><br>Figma, Sketch, Frontitude</p>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br>Figma, Sketch, Frontitude</p>
         </div>
     </div>
 
@@ -53,7 +53,4 @@
 
 
 </div>
-
 <?php include("includes/footer.php"); ?>
-
-
