@@ -68,7 +68,7 @@
     <p>
 
 
-        <div class='small'>
+        <div class='small2'>
             <p><span style="font-family: Avenir Heavy">SHAP Values</span></p>
         </div>
 
@@ -254,3 +254,5 @@
 
 </div>
 </div>
+
+<?php include("includes/footer.php"); ?>
