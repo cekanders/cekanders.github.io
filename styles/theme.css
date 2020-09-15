@@ -105,11 +105,11 @@ img {
 }
 
 .newtag p {
-    font-size: 25px;
+    font-size: 30px;
     color: #7C38F2;
     font-family: 'Avenir Heavy';
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .button p{
@@ -193,6 +193,19 @@ img {
     padding-left: 18%;
 }
 
+.center2 {
+    margin: auto;
+    width: 50%;
+}
+
+.pushleft{
+    padding-top: 30px;
+    padding-left: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+
 .new_spacing {
     padding: 0;
     margin: 0;
@@ -223,13 +236,15 @@ img {
 }
 
 @media (max-width: 600px) {
+
     body {
         width: 100%;
         font-family: "Avenir", sans-serif;
         padding-top: 30px;
         padding-bottom: 50px;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 0px;
     }
 
     body p {
@@ -261,31 +276,38 @@ img {
 
     }
 
+    .first {
+        width: 100%;
+    }
+
     .row2 img{
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     .row{
         display: block;
+        padding-right: 0px;
     }
 
-
     .intro p {
-        font-size: 75px ;
+        font-size: 40px ;
         font-family: "Avenir Heavy", sans-serif;
     }
 
     .alignleft img {
-        max-width: 70%;
+        max-width: 80%;
         padding-bottom: 0px;
-        padding-right: 2px;
-        padding-left: 18px;
+        padding-right: 0px;
+        padding-left: 3%;
+        padding-top: 0px;
     }
 
     .alignright li {
+        display: block;
         font-size: 15px;
         padding-top: 0px;
         padding-bottom: 0px;
+        padding-left: 0px;
         padding-right: 3px;
     }
 
@@ -294,19 +316,36 @@ img {
         padding: 0px;
     }
 
-
     img {
         max-width: 100%;
         height: auto;
-        padding-bottom: 30px;
-        padding-right: 30px;
+        padding-left: 5%;
+    }
+
+
+    iframe {
+        width: 100%;
+        height: 300px";
+    }
+
+    .button {
+        padding-right: 55px;
+        margin-left: 3%;
+        margin-bottom: 60px;
+    }
+
+    .pushleft img{
+        width:100%;
     }
 
     .narrow {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
+    .small {
+        padding-left: 3%;
+    }
 
   }
 
