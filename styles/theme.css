@@ -99,7 +99,7 @@ img {
 .tag p {
     font-size: 18px;
     color: #7C38F2;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
     padding-bottom: 10px;
     padding-top: 30px;
 }
@@ -107,7 +107,7 @@ img {
 .newtag p {
     font-size: 30px;
     color: #7C38F2;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -166,19 +166,19 @@ img {
 .row2 a:link{
     text-decoration: none;
     color: black;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
 }
 
 .row2 a:visited{
     text-decoration: none;
     color: black;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
 }
 
 .row2 a:hover{
     text-decoration: none;
     color: #7C38F2;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
 }
 
 .space {
@@ -373,3 +373,4 @@ img {
 
   }
 
+  
