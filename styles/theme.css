@@ -205,6 +205,9 @@ img {
     width: 50%;
 }
 
+.pushleft img {
+    width: 150px;
+}
 
 .new_spacing {
     padding: 0;
@@ -282,6 +285,7 @@ img {
 
     .row2 img{
         margin-left: 10%;
+        width: 70%;
     }
 
     .row{
@@ -306,7 +310,7 @@ img {
         display: block;
         font-size: 15px;
         padding-top: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 5px;
         padding-left: 0px;
         padding-right: 3px;
     }
@@ -335,18 +339,37 @@ img {
     }
 
     .pushleft img{
-        width:100%;
+        width: 200px;
     }
 
     .narrow {
         padding-left: 0px;
         padding-right: 0px;
     }
+    
+    .small2 {
+        margin-left: 4%;
+    }
 
-    .small {
-        padding-left: 3%;
+    .center {
+        padding-left: 18%;
+    }
+    
+    .center2 {
+        margin: auto;
+        width: 50%;
+    }
+    
+    .pushleft{
+        padding-top: 30px;
+        padding-left: 50px;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .pushleft img {
+        width: 150px;
     }
 
   }
 
-  
