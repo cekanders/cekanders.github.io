@@ -6,3 +6,5 @@ $index = "other";
 include("includes/nav.php"); ?>
 <div class='row2'></div>
 <iframe src="/uploads/images/media/Kanders_Chloe.pdf" width="100%" height="800px"></iframe>
+
+<?php include("includes/footer.php"); ?>
