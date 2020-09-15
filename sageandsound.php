@@ -13,7 +13,7 @@
             <p>Sage and Sound</p>
         </div>
 
-        <div class='small'>
+        <div class='small2'>
             <span style="font-family: Avenir Heavy">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
@@ -39,3 +39,5 @@
         We have been working to design and develop a site. 
         I specifically worked on designs for the blog as well as developing pricing strategy for hosting an online video streaming platform for the Study.
         More details to come.</p>
+    
+<?php include("includes/footer.php"); ?>
