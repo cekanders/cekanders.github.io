@@ -14,14 +14,14 @@
         </div>
 
         <div class='small2'>
-            <span style="font-family: Avenir Heavy">DURATION</span><br> May-August 2020 (12 weeks)
+            <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
-            <span style="font-family: Avenir Heavy">TEAM</span><br> Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
             <br>
-            <span style="font-family: Avenir Heavy">FOCUS</span><br> Market Research, Wireframing, Visual Design <br>
+            <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Market Research, Wireframing, Visual Design <br>
             <br>
-            <span style="font-family: Avenir Heavy">TOOLS</span><br> Figma, Sketch, Frontitude</p>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Figma, Sketch, Frontitude</p>
         </div>
     </div>
 
@@ -39,5 +39,5 @@
         We have been working to design and develop a site. 
         I specifically worked on designs for the blog as well as developing pricing strategy for hosting an online video streaming platform for the Study.
         More details to come.</p>
-    
+
 <?php include("includes/footer.php"); ?>
