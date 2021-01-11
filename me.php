@@ -20,9 +20,9 @@ include("includes/nav.php"); ?>
 
 <div class='linked'>
 <p> My journey into product began with my internship at <a href='https://www.catch-nyc.com/'>Catch New York</a> last summer. 
-    I found myself fascinated by understanding the consumer and creating products and campaigns that align with the needs of the target audience in a variety of industries.
-    I have continued fostering my passion for strategizing and defining product vision by working with <a href='https://simplifed.us/'>SimpliFed</a>, 
-        a startup in the healthcare space, this past semester.
+    I found myself fascinated by understanding the consumer and creating products and campaigns that align with the needs of the target audience.
+    I have continued to foster my passion for strategizing and defining product vision by working with <a href='https://simplifed.us/'>SimpliFed</a>, 
+    a startup in the healthcare space, this past semester.
 <br></br>I love to talking to new people and learning about their projects and experiences. If you would like to contact me, feel free to send me an email at cek223@cornell.edu or add me on <a href='https://www.linkedin.com/in/chloe-kanders-6b390a184/'>LinkedIn</a>.</p>
 </div>
 <?php include("includes/footer.php"); ?>
