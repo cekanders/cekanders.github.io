@@ -16,11 +16,18 @@ h1{
     font-size: 30px;
 }
 
+table, td, th {
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
 
 nav li{
     display: inline-block;
     font-size: 20px;
-    padding-right: 10px;
+    padding-right: 15px;
     font-family: "Avenir", sans-serif;
 }
 
@@ -29,14 +36,14 @@ p {
     font-family: "Avenir", sans-serif;
     font-size: 20px;
     margin: 0px;
-    padding-right: 50px;
-    padding-bottom: 10px;
 }
 
 .row{
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
 }
+
 
 a:link{
     text-decoration: none;
@@ -64,20 +71,21 @@ a:active{
 }
 
 .intro {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
 
 .intro2 {
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 .intro2 p{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .intro p {
-    font-size: 50px ;
+    font-size: 55px ;
     font-family: "Avenir Heavy", sans-serif;
 }
 
@@ -85,39 +93,104 @@ a:active{
 .gallery {
     display: flex;
     flex-direction: row;
+    padding-left: 0px;
     
 }
 
 img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.img_home {
+    max-width: 100%;
+    height: auto;
     padding-bottom: 30px;
     padding-right: 30px;
 }
 
+.img_paddingr {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 00px;
+    padding-right: 30px;
+}
 
-.gallery a img:last-child {
-    display: none;  
-  }
-.gallery a:hover img:last-child {
-    display: block;  
-  }
-.gallery a:hover img:first-child {
-    display: none;  
-  }
+.img_paddingb {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+
+.img_paddingb2 {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    padding-right: 0px;
+}
+
 
 .tag p {
     font-size: 18px;
     color: #7C38F2;
-    font-family: 'Avenir Heavy';
+    font-family: 'Avenir Heavy', sans-serif;
     padding-bottom: 10px;
     padding-top: 30px;
 }
 
+.newtag p {
+    font-size: 33px;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.button p{
+    font-size: 15px;
+    color: #7C38F2;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    border: solid;
+    border-color: #7C38F2;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: whitek;
+}
 .title p {
     font-size: 40px;
     font-family: "Avenir Heavy", sans-serif;
     padding-bottom: 20px;
+}
+
+.title_white {
+    width: 200px;
+    padding-right: 50px;
+}
+
+.title_width {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.width {
+    width: 1500px;
+}
+
+.title_white p {
+    font-size: 40px;
+    font-family: "Avenir Heavy", sans-serif;
+    padding-bottom: 10px;
 }
 
 .title2 p {
@@ -139,11 +212,18 @@ img {
     padding-left: 20px;
 }
 
+.list p {
+    padding-bottom: 10px;
+}
+
 .list1 {
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
+.list_style {
+    padding-bottom: 10px;
+}
 
 .row2{
     display: flex;
@@ -151,15 +231,238 @@ img {
     padding-top: 40px;
 }
 
+.linked{
+    padding-top: px;
+}
+
+.row2 a:link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.row2 a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.row2 a:hover{
+    text-decoration: none;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:hover{
+    text-decoration: none;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
 .space {
     padding-bottom: 20px;
+}
+
+.longspace {
+    padding-bottom: 50px;
 }
 
 .center {
     padding-left: 18%;
 }
 
+.center2 {
+    margin: auto;
+    width: 50%;
+}
+
+.pushleft{
+    padding-top: 30px;
+    padding-left: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+.pushleft img {
+    width: 150px;
+}
+
 .new_spacing {
     padding: 0;
     margin: 0;
 }
+
+.first {
+    width: 80%;
+}
+
+
+.second {
+    width: 100%;
+}
+
+.current_page {
+    border-bottom: solid;
+    border-color: #7C38F2;
+    background-color: white;
+    padding: 5px;
+    border-width: 5px;
+}
+
+@media (max-width: 1205px) {
+    .row2 img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        font-family: "Avenir", sans-serif;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 0px;
+    }
+
+    body p {
+       margin-left: 18px;
+    }
+
+    h1{
+        font-family: "Avenir", sans-serif;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .gallery {
+        display: block;
+        
+    }
+
+    p {
+        font-family: "Avenir", sans-serif;
+        font-size: 15px;
+        margin: 0px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .row2{
+        display: block;
+        flex-direction: column-reverse;
+
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .row2 img{
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .row{
+        display: block;
+        padding-right: 0px;
+    }
+
+    .intro p {
+        font-size: 40px ;
+        font-family: "Avenir Heavy", sans-serif;
+    }
+
+    .alignleft img {
+        max-width: 80%;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 3%;
+        padding-top: 0px;
+    }
+
+    .alignright li {
+        display: block;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 3px;
+    }
+
+    .current_page {
+        border-width: 2px;
+        padding: 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        padding-left: 5%;
+    }
+
+
+    iframe {
+        width: 100%;
+        height: 300px";
+    }
+
+    .button {
+        padding-right: 55px;
+        margin-left: 3%;
+        margin-bottom: 60px;
+    }
+
+    .pushleft img{
+        width: 200px;
+    }
+
+    .narrow {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .small2 {
+        margin-left: 4%;
+    }
+
+    .center {
+        padding-left: 18%;
+    }
+    
+    .center2 {
+        margin: auto;
+        width: 50%;
+    }
+    
+    .pushleft{
+        padding-top: 30px;
+        padding-left: 50px;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .pushleft img {
+        width: 150px;
+    }
+    
+
+  }
+
+
+  
