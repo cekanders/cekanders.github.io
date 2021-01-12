@@ -16,11 +16,18 @@ h1{
     font-size: 30px;
 }
 
+table, td, th {
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
 
 nav li{
     display: inline-block;
     font-size: 20px;
-    padding-right: 10px;
+    padding-right: 15px;
     font-family: "Avenir", sans-serif;
 }
 
@@ -29,14 +36,14 @@ p {
     font-family: "Avenir", sans-serif;
     font-size: 20px;
     margin: 0px;
-    padding-right: 50px;
-    padding-bottom: 10px;
 }
 
 .row{
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
 }
+
 
 a:link{
     text-decoration: none;
@@ -64,20 +71,21 @@ a:active{
 }
 
 .intro {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
 
 .intro2 {
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 .intro2 p{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .intro p {
-    font-size: 50px ;
+    font-size: 55px ;
     font-family: "Avenir Heavy", sans-serif;
 }
 
@@ -92,9 +100,38 @@ a:active{
 img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.img_home {
+    max-width: 100%;
+    height: auto;
     padding-bottom: 30px;
     padding-right: 30px;
 }
+
+.img_paddingr {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 00px;
+    padding-right: 30px;
+}
+
+.img_paddingb {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+
+.img_paddingb2 {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    padding-right: 0px;
+}
+
 
 .tag p {
     font-size: 18px;
@@ -105,7 +142,7 @@ img {
 }
 
 .newtag p {
-    font-size: 30px;
+    font-size: 33px;
     color: #7C38F2;
     font-family: 'Avenir Heavy', sans-serif;
     padding-bottom: 10px;
@@ -115,21 +152,45 @@ img {
 .button p{
     font-size: 15px;
     color: #7C38F2;
-    padding-left: 45px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    font-weight: 600;
 }
 
 .button {
     display: inline-block;
     border: solid;
     border-color: #7C38F2;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 10px;
+    background-color: whitek;
 }
 .title p {
     font-size: 40px;
     font-family: "Avenir Heavy", sans-serif;
     padding-bottom: 20px;
+}
+
+.title_white {
+    width: 200px;
+    padding-right: 50px;
+}
+
+.title_width {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.width {
+    width: 1500px;
+}
+
+.title_white p {
+    font-size: 40px;
+    font-family: "Avenir Heavy", sans-serif;
+    padding-bottom: 10px;
 }
 
 .title2 p {
@@ -151,16 +212,27 @@ img {
     padding-left: 20px;
 }
 
+.list p {
+    padding-bottom: 10px;
+}
+
 .list1 {
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
+.list_style {
+    padding-bottom: 10px;
+}
 
 .row2{
     display: flex;
     flex-direction: row;
     padding-top: 40px;
+}
+
+.linked{
+    padding-top: px;
 }
 
 .row2 a:link{
@@ -176,6 +248,24 @@ img {
 }
 
 .row2 a:hover{
+    text-decoration: none;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.linked a:hover{
     text-decoration: none;
     color: #7C38F2;
     font-family: 'Avenir Heavy', sans-serif;
@@ -370,7 +460,9 @@ img {
     .pushleft img {
         width: 150px;
     }
+    
 
   }
+
 
   
