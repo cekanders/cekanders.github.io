@@ -1,0 +1,428 @@
+<?php include("includes/init.php"); ?> 
+<?php include("includes/head.php"); ?>
+<?php include("includes/nav.php"); ?>
+
+<div class='row'>
+
+    <div class='width'>
+        <div class="tag">
+        <p>PM INTERNSHIP</p>
+        </div>
+
+        <div class='title'>
+            <p>SimpliFed Website</p>
+        </div>
+
+        <div class='small2'>
+            <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> August - December 2020 (16 weeks)
+            <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Andrea Ippolito (Founder/CEO), Dillip Reddy (Developer), Michelle Wang (Visual Designer) <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Product Management, User Research, Usability Testing, Visual Design <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Figma, Google Analytics</p>
+        </div>
+
+    </div>
+        
+    <div class="title_width">
+        <img src="images/mac.png" alt="Mac" />
+    </div>
+</div>
+
+<hr>
+<div class='narrow'>
+    <div class="tag">
+        <p>SUMMARY</p>
+    </div>
+
+    <p>I worked as a Product Management intern for SimpliFed, a start up in the virtual lactation space, to improve the overall user experience and user engagement of the site. 
+    SimpliFed is a HIPPA-compliant video service platform that connects new moms with IBCLCs, International Board Certified Lactation Consultants. 
+    During my internship, I mapped out objectives and key results and collaborated with design and development teams to update web pages.
+    In addition, I met virutally with new moms to conduct user research and usability testing to understand their needs and pain-points with the current product.</p>
+
+    <div class="tag">
+        <p>THE PROBLEM</p>
+    </div>
+    <p>New moms often don't know where to look for advice during their pregnancy or the birth of their child and may not be aware of helpful resources.
+    While many turn to family and friends for guidance, a professional opinion can provide personalized, crucial information as well as up-to-date industry solutions.
+    Because of the coronavirus pandemic, traditional in-person appointments have been limited and less accessible which creates the need for an online platform. </p> 
+
+    <div class="tag">
+        <p>THE SOLUTION</p>
+    </div>
+    <p>In order to provide necessary expertise to new moms, SimpliFed connects new moms with IBCLCs who can provide support and guidance during preganancy and the first months of the child's life.
+    In addition, SimpliFed is a virtual platform, making its service accessible to new moms who are often on the go, whenever and wherever. </p>
+
+    <div class="tag">
+    <p>OBJECTIVES AND KEY RESULTS (OKRs)</p>
+    </div>
+    <ul class='list'>
+        <li><p>Implement designs and prototype for On-Demand booking feature</p></li>
+        <li><p>Conduct user research to understand the needs of our target audience, new moms</p></li>
+        <li><p>Conduct usability testing to find any pain-points with the current interface of the platform</p></li>
+        <li><p>Improve the user experience of the site to increase customer engagement</p></li>
+    </ul>
+
+    <div class="tag">
+        <p>USER RESEARCH</p>
+    </div>
+
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">User Research Plan</span></p>
+    </div>
+    <table style="table-layout: fixed ; width: 100%;">
+        <tr>
+            <th><p>Goal</p></th>
+            <th><p>Plan of Action</p></th>
+            <th><p>Timeline</p></th>
+        </tr>
+        <tr>
+            <td><p>Understand stakeholders’ painpoints, needs, and goals surrounding infant feeding</p></td>
+            <td><p>Conduct 20-minute interviews with new moms from online communities and friends</p></td>
+            <td><p>Complete 6 interviews over the course of a 2-week sprint (3 interviews per week)</p></td>
+        </tr>
+    </table>
+
+    <div class='space'></div>
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Interview Questions</span></p>
+    </div>
+
+    <ul class='list'>
+        <li><p> How many kids do you have and how old are they?</p></li>
+        <li><p> Tell me about your feeding experience when they were newborns.</p></li>
+        <li><p> How do you decide which feeding options to choose?</p></li>
+        <li><p> Did you encounter any challenges with feeding your babies? If so, what were the top challenges and what did you do to overcome them?</p></li>
+        <li><p> What did you do (if anything) during pregnancy to prepare for when your babies were born surrounding infant feeding?</p></li>
+        <li><p> Did you speak with anyone about those decisions?</p></li>
+        <li><p> Which sources did you pay attention to and why?</p></li>
+        <li><p> Which sources did you use and which sources did you sources on a recurring basis?</p></li>
+        <li><p> Why did you continuously go back to that source?</p></li>
+        <li><p> Where do you typically go to learn about new information when they were babies?</p></li>
+        <li><p> What suggestions would you give other new moms that you wish you had known?</p></li>
+        <li><p> Can you introduce me to 1-2 other people to interview?</p></li>
+    </ul>
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Interview Notes Compiled</span></p>
+    </div>
+    
+    <div class='space'>
+     <p>After my team and I conducted all interviews, we compiled individual notes from each interview into one master doc 
+    in order to visually represent our findings.</p>
+    </div>
+
+    <img class='img_paddingb' src="images/notes.png" alt="Notes" />
+    <div class='space'></div>
+
+    
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">User Research Key Insights</span></p>
+    </div>
+    
+    <div class='space'>
+        <p>From our complied interview notes, I was able to easily parse through the document to 
+     find clear trends within the data. I grouped the findings by different revelant categories.</p>
+    </div>
+
+    <div class='list_style'>
+        <em><p>Breastfeeding vs Formula:</p></em>
+    </div>
+    <ul class='list'>
+        <li><p>Breastfeeding is preferred but formula may be necessary due to certain medical
+    conditions (acid reflux, insufficient glandular tissue, tongue tie, colic etc.)</p></li>
+    </ul>
+
+    <div class='space'></div>
+
+    <div class='list_style'>
+        <em><p>Research and Preparation:</p></em>
+    </div>
+    <ul class='list'>
+        <li><p>Talked to family members and friends</p></li>
+        <li><p>Buying breastfeeding pillows and pumps</p></li>
+        <li><p>Read online sources and books</p></li>
+        <li><p>Took birthing classes</p></li>
+        <li><p>Talked to lactation consultant and doctor</p></li>
+    </ul>
+    <div class='space'></div>
+
+    <div class='list_style'>
+        <em><p>Other Sources:</p></em>
+    </div>
+    <ul class='list'>
+        <li><p>Online reviews</p></li>
+        <li><p>The Science of Mom</p></li>
+        <li><p>The Womanly Art of Breastfeeding</p></li>
+        <li><p>Babycenter.com</p></li>
+        <li><p>What to Expect When You’re Expecting</p></li>
+        <li><p>Facebook Mom Group Chats</p></li>
+    </ul>
+    <div class='space'></div>
+
+    <div class='list_style'>
+        <em><p>Challenges:</p></em>
+    </div>
+    <ul class='list'>
+        <li><p>Not enough supply</p></li>
+        <li><p>Outdated solutions to lactation problems</p></li>
+        <li><p>Not having help in the wee hours of the night</p></li>
+        <li><p>Outdated industry solutions to breastfeeding (formula, pumps etc.)</p></li>
+        <li><p>Physical discomfort</p></li>
+        <li><p>Unfamiliar lifestyle and clothing</p></li>
+        <li><p>Difficulty maintaining consistency and collectedness throughout the process</p></li>
+    </ul>
+
+    <div class="tag">
+    <p>USABILITY TESTING</p>
+    </div>
+   
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Usability Test Questions</span></p>
+    </div>
+    <ul class='list'>
+        <li><p>What is the first thing that catches your eye?</p></li>
+        <li><p>What is the first thing you read on the website? From that, what do you understand about
+        us?</p></li>
+        <li><p>Show me how you sign up for an appointment. As you do this, could you speak out loud your steps?</p></li>
+        <li><p>Read through the appointment options and choose one. Why did you choose that one? 
+        Walk me through how you sign up for that type of appointment. As you do this, could you speak out loud your steps?</p></li>
+        <li><p>What are IBCLCs? Where can you find information about them?</p></li>
+        <li><p>If you were interested in becoming a provider at SimpliFed, how would you find a place
+        to sign up to work with SimpliFed?</p></li>
+        <li><p>You want to find out information about your upcoming appointment. How will you contact us? Walk me through how you find this information.</p>
+        <li><p>If you wanted to find us on social media, how would you find us through this page?</p></li>
+        <li><p>Any other feedback or observations surrounding our site?</p></li>
+    </ul>
+    
+<div class='space'></div>
+<div class='list_style'>
+    <p><span style="font-family: Avenir Medium">Metrics</span></p>
+</div>
+
+<ul class='list'>
+    <li><p>How long is it taking the tester to do said action?</p></li>
+    <li><p>How many questions do they ask us while navigating?</p></li>
+    <li><p>Do they find themselves scrolling back and forth too often?</p></li>
+    <li><p>How long did they take to pick an option from the scheduling page?</p></li>
+</ul>
+<div class='space'></div>
+
+<div class='list_style'>
+    <p><span style="font-family: Avenir Medium">Usability Testing Key Takeaways</span></p>
+</div>
+<ul class='list'>
+    <li><p>Mailing list stands out - could be distracting</p></li>
+    <li><p>Users wondered if they had to sign up to the mailin list before using the site </p></li>
+    <li><p>Users would like to know more information about the IBCLCs they are signing up for before they actually sign up in Simple Practice on the Schedule Page</p></li>
+    <li><p>Users are presented with all options once they already chose the type of appointment they want which could be confusing</p></li>
+    <li><p>Some users prefer email over a contact form</p></li>
+    <li><p>Social media and email should be included on the contact page</p></li>
+    <li><p>Users wondered why they had to put their card information in if they aren’t being charged</p></li>
+    <li><p>Users wanted more information about how to get reimbursements from insurance</p></li>
+</ul>
+
+    <div class="tag">
+    <p>IMPROVING UX</p>
+    </div>
+
+    <p>Based on the user research and usability testing, my team and I made several changes to
+    improve the user experience of the site. A drop-dwon menu with subpages was added to improve 
+    the SEO of the site. In addition, four pages were redesigned: Schedule, Telelactation, Breastfeeding 
+    Complications, and Breastfeeding Support.</p>
+    
+    <div class="title2">
+    <p>Schedule Page</p>
+    </div>
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Original Design</p>
+    </div>
+
+    <img class='img_paddingb' src='images/org_schedule.png' alt='Original Schedule'>
+    <p><span style="font-family: Avenir Medium">Pain-point #1</span> - Lack of text information when the displayed to the user when he/she 
+    first opens the page</p>
+
+    <div class='row2'></div>
+    <img class='img_paddingb' src='images/org_schedule2.png' alt='Original Schedule 2'>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Pain-point #2</span> - The Request Appointment button takes the users to the same pop-up 
+        window in Simple Practice, a HIPPA compliant video-calling platform, to schedule an appointment</p>
+    </div>  
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">On-Demand Call Feature Sketches</p></span>
+    </div>
+    <div class='row'>
+        <div>
+            <img class='img_paddingr' src='images/sketch1.jpg' alt='Sketch 1'>
+        </div>
+        <div>
+            <img class='img_paddingr' src='images/sketch2.jpg' alt='Sketch 2'>
+        </div>
+        <div>
+            <img class='img_paddingr' src='images/sketch3.jpg' alt='Sketch 3'>
+        </div>
+    </div>  
+
+    <p>In addition to creating solutions to the two pain-points listed above, my team and I 
+        added a fourth schedule type option to implement an On-Demand calling feature that 
+        will be available shortly. I designed different user flows, placing the call to action
+        in two different locations. In the first flow, the user is presented with two options 
+        on the homepage: Schedule an Appointment or Talk to a Consultant. In the second flow,
+        the user is not presented with the option to talk to a consultant on demand until he/she 
+        clicks on the Schedule an Appointment page. Ultimately, my team and I decided to go with 
+        the second flow because in this flow, the user must view all available options before making
+        a decision. This provides the user with more information and prevents them from potenitally
+        missing an option that works better for them.
+    </p>
+
+    <div class='row2'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Final Implementation</p></span>
+</div>
+    <img class='img_paddingb' src='images/final_schedule1.png' alt='Final Schedule 1'>
+    <p>In the final implementation of the schedule page, we decreased the height of
+        the banner decreased (which becomes consistent across all pages) in order to provide
+        more context for the user. In addition, we added an Available Schedule Options header 
+        which provides more details about the content of the page for the user.</p>
+    <div class='row2'></div>
+
+    <img class='img_paddingb' src='images/final_schedule2.png' alt='Final Schedule 2'>
+    <p>We decided to go with the second option with the four boxes displayed vertically in order to 
+        demonstrate equality between all the options. In our usability testing, we found that user
+        were confused about why there were three separate buttons that lead to the same pop-up box
+        appearing on the screen once clicked on. The request appointment button applies 
+        to the three types of appointments because of the pop-up box in Simple Practice, so we 
+        decided to only include one button instead of three separate buttons leading to the same
+        link to avoid confusion for the user.</p>
+    <div class='row2'></div>
+
+    <img class='img_paddingb' src='images/final_schedule3.png' alt='Final Schedule 3'>
+    <p>In our usability testing, we found that users wanted more information about the people 
+        they are signing up for appointments with on the Schedule page so we included a section 
+        called Our IBCLCs to help users understand who they will be talking to.
+
+    <div class="title2">
+        <p>Telelactation Page</p>
+    </div>
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Original Design</p>
+    </div>
+
+    <img class='img_paddingb' src='images/tele_org1.png' alt='Original Telelactation 1'>
+    <p><span style="font-family: Avenir Medium">Pain-point #1</span> - In the design of this page,
+    the text is center-aligned which decreases reability for the user.</p>
+
+    <div class='row2'></div>
+    <img class='img_paddingb' src='images/tele_org2.png' alt='Original Telelactation 2'>
+    <p><span style="font-family: Avenir Medium">Pain-point #2</span> - In addition, the information in the 
+    Why Should I use telelactation section is difficult to read as there is too much information creating
+    an overwhelming experience for the user. Because the information is stacked in rows, this signfies
+    that some sections are more important than others.</p>
+
+    <div class='row2'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Final Implementation</p></span>
+    </div>
+
+    <img class='img_paddingb' src='images/tele_fin1.png' alt='Final Telelactation 1'>
+    <p>In the final implementation, the banner added for consistency with other pages and text 
+        is left-aligned to increase readability.</p>
+
+    <div class='row2'></div>
+    <img class='img_paddingb' src='images/tele_fin2.png' alt='Final Telelactation 2'>
+    <p>In the redesign of the Why Should I Use Telelactation Section, several changes were made to 
+        improve the readability of the text. We decided to use columns instead of rows to signify
+        equality across all sub-sections and decrease the width of the text across the page. 
+        In addition, we created titles to emphasize key points of each box. 
+        </p>
+
+    <div class="title2">
+    <p>Breastfeeding Complications Page</p>
+    </div>
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Original Design</p>
+    </div>
+
+    <img class='img_paddingb' src='images/breastfeeding_org1.png' alt='Original Breastfeeding 1'>
+    <p>In the original design of the page, the text is center aligned and the images too large
+        which could be jarring for users.
+    </p>
+    <div class='row2'></div>
+    <img class='img_paddingb' src='images/breastfeeding_org2.png' alt='Original Breastfeeding 2'>
+    <p>In the common questions section, the questions are left aligned and responses are right-aligned
+    which could be confusing for the user.</p>
+    <div class='row2'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Final Implementation</p></span>
+    </div>
+    <img class='img_paddingb' src='images/breastfeeding_fin1.png' alt='Final Breastfeeding 1'>
+    <p>In the final implementation of this page, the banner is added for consistency with other pages
+    and the graphics are smaller. Text is left-aligned to increase readability.</p>
+    <div class='row2'></div>
+    <img class='img_paddingb' src='images/breastfeeding_fin2.png' alt='Final Breastfeeding 2'>
+    <p>Finally, the text in the common questions section is all left-aligned.</p>
+
+    <div class="title2">
+    <p>Breastfeeding Support Page</p>
+    </div>
+
+    <div class='space'></div>
+    <div class='list_style'>
+        <p><span style="font-family: Avenir Medium">Final Implementation</p>
+    </div>
+    <img class='img_paddingb' src='images/support_1.png' alt='Support 1'>
+    <p>Following the same usability principles as the other pages employ, the breastfeeding
+        support page was modified.</p>
+
+    <div class="tag">
+    <p>DATA ANALYTICS</p>
+    </div>
+
+    <p>Over the course of August 15th to December 15th, 2020 the following metrics were recorded.</p>
+    <div class='space'></div>
+    <ul class='list'>
+        <li><p> 1.88k users</p></li>
+        <li><p> 2.64k sessions</p></li>
+        <li><p> 1.85k new users</p></li>
+        <li><p> Avg session duration: 1:34</p></li>
+        <li><p> Bounce rate: 36.44%</p></li>
+        <li><p> Pageviews: 7.2k</p></li>
+        <li><p> Pages/Session: 2.73</p></li>
+        <li><p> Number of Sessions per User: 1.4</p></li>
+    </ul>
+
+    <div class="tag">
+    <p>CONCLUSION</p>
+    </div>
+    <p>I enjoyed working collaboratively with the design and development teams as well as Andrea 
+    and the rest of the SimpliFed team to help enhance the site. Reflecting on my research, I 
+    think that the usability testing was the most useful part of the research, resulting in
+    actionables I could take to improve the site. However, understanding the users' motivations, 
+    desires and challenges was essential in thinking about the product vision and the purpose of 
+    the On-Demand calling feature. I think that I could have spent more time in understanding the 
+    users and brainstorming other potential features to improve their experience on the site. 
+    <br></br>
+    In terms of the user interface designs, I think much progress was made in improving the 
+    readability and making content more accessible to the users, as indicated by the user research.
+    As a product management intern, I think I should have investigated metrics more, specifically
+    tracking and analyzing metrics relating to calls to action on the page such as when the user 
+    clicks on a button or signs up for an appointment, as those metrics would be more telling of 
+    our progress and what needs improvement. Overall, my favorite part of the experience was 
+    acting as the intermediary between the design and development teams and planning our goals 
+    and course of action to achieve them. I'm excited to see how SimpliFed evolves in the future!</p>
+
+
+    
+<?php include("includes/footer.php"); ?>
