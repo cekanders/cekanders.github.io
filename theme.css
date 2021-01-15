@@ -22,6 +22,13 @@ table, td, th {
     border-collapse: collapse;
 }
 
+table p {
+    font-size: 17px;
+}
+
+td {
+    vertical-align: top;
+}
 
 
 nav li{
@@ -111,6 +118,13 @@ img {
     padding-right: 30px;
 }
 
+.img_footer {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
 .img_paddingr {
     max-width: 100%;
     height: auto;
@@ -123,6 +137,13 @@ img {
     height: auto;
     padding-bottom: 10px;
     padding-right: 0px;
+}
+
+.img_paddingt {
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .img_paddingb2 {
@@ -181,6 +202,11 @@ img {
 .title_width {
     padding-top: 60px;
     padding-bottom: 10px;
+}
+
+.title_width2 {
+    padding-top: 10px;
+    width: 80%;
 }
 
 .width {
@@ -279,6 +305,10 @@ img {
     padding-bottom: 50px;
 }
 
+.smallspace {
+    padding-bottom: 5px;
+}
+
 .center {
     padding-left: 18%;
 }
@@ -288,11 +318,17 @@ img {
     width: 50%;
 }
 
+.center2 p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
 .pushleft{
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 40%;
     margin: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .pushleft img {
