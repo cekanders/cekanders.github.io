@@ -27,9 +27,9 @@
     </div>
 
     <div>
-        <figure>
+        <div class="title_width2">
             <img src="images/iPhoneX.png" />
-        </figure>
+        </div>
     </div>
 </div>
 
@@ -50,7 +50,8 @@
     <div class="tag">
         <p>THE SOLUTION</p>
     </div>
-    <p>To inform people about potential health risks and how they can take control of their health, Parachute is partnering with organizations to promote an exclusive offer for members.</p>
+    <p>To inform people about potential health risks and how they can take control of their health, Parachute is partnering with organizations to promote an exclusive offer for members
+    through a marketing email campaign.</p>
 
     <div class="title2">
     <p>Cancer Insurance</p>
@@ -67,12 +68,13 @@
 
     <p>
 
-
+        <div class='space'></div>
         <div class='small'>
             <p><span style="font-family: Avenir Heavy">SHAP Values</span></p>
         </div>
 
         <img src='images/shap.png' alt='shap'/>
+        <div class='smallspace'></div>
         <div class='small'>
             <p><span>&#42;</span>Red indicates high feature value and blue indicates low feature value</p>
         </div>
@@ -82,23 +84,24 @@
         <p>FINDINGS</p>
     </div>
 
-    <div class='row'>
-        <div>
-            <p><span style="font-family: Avenir Medium">Negative Correlation</span></p>
-            <ul class='list'>
-                <li><p>Age</p></li>
-                <li><p>Income</p></li>
-                <li><p>Home Value</p></li>
-            </ul>
-        </div>
-
-        <div>
-        <p><span style="font-family: Avenir Medium">Positive Correlation</span></p>
-        <ul class='list'>
+    <div class='space'>
+    <table style="table-layout: fixed ; width: 100%;">
+    <tr>
+        <th><p>Negative Correlation</p></th>
+        <th><p>Positive Correlation</p></th>
+    </tr>
+    <tr>
+        <td><ul class='list'>
+            <li><p>Age</p></li>
+            <li><p>Income</p></li>
+            <li><p>Home Value</p></li>
+        </td>
+        <td><ul class='list'>
             <li><p>Profitability</p></li>
             <li><p>Interest in International Travel</p></li>
-        </div>
-
+        </td>
+    </tr>
+    </table>
     </div>
 
     <div class='space'>
@@ -120,21 +123,21 @@
 
         <div>
             <figure>
-                <img src="images/explorers.png" alt="Explorers"/>
+                <img class='img_home' src="images/explorers.png" alt="Explorers"/>
             </figure>
 
             <figure>
-                <img src="images/nextgen.png" alt="Next Gen" />
+                <img class='img_home' src="images/nextgen.png" alt="Next Gen" />
             </figure>
         </div>
 
         <div>
             <figure>
-            <img src="images/homeowners.png" alt="Homeowners" />
+                <img class='img_home' src="images/homeowners.png" alt="Homeowners" />
             </figure>
 
             <figure>
-            <img src="images/general.png" alt="General" />
+                <img class='img_home' src="images/general.png" alt="General" />
             </figure>
         </div>
 
@@ -164,27 +167,33 @@
 
         <p>The model score for an individual quantifies the individual’s similarity to the target market. 
             I first identified the range of 65 to 75 as the group with the highest model score, on average, due to several outliers in the range. 
-            </p>
+        </p>
+            
+
         <div class='space'></div>
         
         <div class='center'>
-            <img src="images/graph1.png" alt="Model Score" />
+            <img class='img_paddingb' src="images/graph1.png" alt="Model Score" />
+            
         </div>  
+
+        <p>*Numbers have been redacted from the graphs for privacy reasons</p>
+        <div class='space'></div>
         <p>However, upon further analysis of the data, I determined that these outliers do not reflect the average of an age range and that finding the mean value for each age range is essential to accurately representing categorical trends. I wanted to understand the demographic distribution of the new market. 
             I decided to focus on 5-year age groups because my market research suggested that these groups have different needs as they are enduring different stages in their lives. 
             The graph is skewed right with a peak at the 60-65 bin, meaning that there is a disproportionately large number of seniors in the range 50-65 than 65-80 which was taken into consideration when determining the age bounds for segmentation.</p>
         <div class='space'></div>
 
         <div class='center'>
-            <img src="images/graph2.png" alt="Distribution of Age" />
+            <img class='img_paddingb' src="images/graph2.png" alt="Distribution of Age" />
         </div>
-        <p>To identify trends in the dataset, I grouped the data in 5-year bins and took the mean across the individuals in each bin for a particular feature. 
+        <p>To identify trends in the dataset, I grouped the data into 5-year bins and took the mean across the individuals in each bin for a particular feature. 
             I found that as age increases, model score increases, on average. 
-            Therefore, further analysis of the features tested against model score will be necessary to identify the similarities between the target market and a more elderly audience.</p>
+            Therefore, a further analysis of the features tested against model score will be necessary to identify the similarities between the target market and a more elderly audience.</p>
         <div class='space'></div>
 
         <div class='center'>
-            <img src="images/graph3.png" alt="Homeowners" />
+            <img class='img_paddingb' src="images/graph3.png" alt="Homeowners" />
         </div>
         
         <p>I hypothesized that as age increases, retirement rates would increase as well. 
@@ -193,7 +202,7 @@
             Therefore, understanding the impact of retirement on one’s decision to purchase senior term life insurance and the connotations surrounding the word to an elderly audience is essential to understanding the customers’ needs.</p>
         <div class='space'></div>
         <div class='center'>
-            <img src="images/graph4.png" alt="Homeowners" />
+            <img class='img_paddingb' src="images/graph4.png" alt="Homeowners" />
         </div>  
        
    
@@ -212,34 +221,35 @@
     <div class='gallery'>
         <div>
             
-                <img src="images/bloodpressure.png" alt="Blood Pressure" />
+                <img class='img_paddingt' src="images/bloodpressure.png" alt="Blood Pressure" />
                 <div class='small'>
                     <p><span style="font-family: Avenir Medium">Hypothesis:</span> As age increases, blood pressure increases.</p>
-
+                <div class='space'></div>
                 <div class='space'><p>The model proved my hypothesis correct.</p></div>
                 </div>
         
-                <img src="images/liability.png" alt="Liability" />
+                <img class='img_paddingt' src="images/liability.png" alt="Liability" />
                 <div class='small'>
                     <p><span style="font-family: Avenir Medium">Hypothesis: </span>As age increases, mortgage liability decreases.</p>
-
+                <div class='space'></div>
                 <div class='space'><p>The model proved my hypothesis correct.</p></div>
                 </div>
         </div>  
         
         <div>
         
-                <img src="images/interest.png" alt="Interest" />
+                <img class='img_paddingt' src="images/interest.png" alt="Interest" />
                 <div class='small'>
                     <p><span style="font-family: Avenir Medium">Hypothesis:</span> As age increases, interest in  insurance increases.</p>
-                
+                <div class='space'></div>
                 <div class='space'><p>The model proved my hypothesis incorrect. </p></div>
                 </div>
                 
-                <img src="images/mortgage.png" alt="Blood Pressure" />
+                <img class='img_paddingt' src="images/mortgage.png" alt="Blood Pressure" />
                 <div class='small'>
                     <p><span style="font-family: Avenir Medium">Hypothesis: </span>As age increases, mortgage age increases.</p>
-                <div class='space'>The model proved my hypothesis correct.</p></div>
+                <div class='space'></div>
+                <div class='space'><p>The model proved my hypothesis correct.</p></div>
                 </div>
         </div>
 
@@ -248,11 +258,89 @@
     <div class='tag'>
         <p>SEGMENTS AND ANALYSIS</p>
     </div>
+    <p>Based on this information and reasoning, the following segements and tone of voice 
+    descriptors were created:</p>
+    <div class='space'></div>
 
-    <div class='space'></space>
-    <img src='images/segments.png' alt='segments analysis'>
+    <table style="table-layout: fixed ; width: 100%;">
+    <tr>
+        <th><p>Segment</p></th>
+        <th><p>SHAP Features</p></th>
+        <th><p>TOV Descriptor</p></th>
+        <th><p>Research</p></th>
+        <th><p>User Stories</p></th>
+    </tr>
+    <tr>
+        <th><p>Young Elderly (Ages 50-64)</p></th>
+        <td>
+            <ul class='list'>
+                <li><p>Income: High</p>
+                <li><p>Mortgage Age: High</p>
+                <li><p>Mortgage Liability: High</p>
+                <li><p>Interest in Term Life Insurance: High</p>
+            </ul>
+        </td>
+        <td>
+        <p>Interested in investing in their future and reaping the long-term financial benefits of 
+        senior term insurance for their family</p></td>
+        <td>
+            <ul class='list'>
+                <li><p>Health begins to deteriorate </p>
+                <li><p>Living expenses may decrease</p>
+                <li><p>Mandatory age of retirement increasing to 66</p>
+                <li><p>Begin thinking about inheritance</p>
+            </ul>
+        </td>
+        <td>
+            <p>As a Young Elderly, I want to invest in senior term life insurance, so that I can support my family with expenses such as mortgage and my funeral costs after my passing.
+            <br></br>
+            As a Young Elderly, I want to invest in senior term life insurance at a younger age, so that I can pay lower premiums while I am still relatively healthy.</p>
+        </td>
+</ul>
+    </tr>
+    <tr>
+        <th><p>Old Elderly (Ages 65-80)</p></th>
+        <td>
+            <ul class='list'>
+                <li><p>Income: Low</p>
+                <li><p>High Blood Pressure: High</p>
+                <li><p>Interest in Term Life Insurance: Low</p>
+            </ul>
+        </td>
+        <td>
+        <p>In need of an urgent short-term solution as health rapidly declines, although may not be aware of this need</p>
+        <br>
+        <ul class='list'>
+                <li><p>Informative, factual</p>
+                <li><p>Should feel at ease despite increasing risks</p>
+                
+        </ul>
+        </td>
+        <td>
+            <ul class='list'>
+                <li><p>Good for people with a strict budget and want to prevent debts from accumulating </p>
+                <li><p>Whole life insurance is expensive but final expense insurance is a competitive option</p>
+                <li><p>Must be healthy to qualify for insurance at such an old age</p>
+            </ul>
+        </td>
+        <td><p>As an Old Elderly, I want to know that my family will be supported as my health deteriorates, so that I can feel at ease during retirement</p></td>
+        
+    </p></td>
+    </tr>
+    </table>
 
-</div>
-</div>
+    <div class='space'></div>
+    <p> For each segment, copy was developed using different messaging for each group based on the tone of voice descriptor and placed into email template designs.</p>
+    <div class='tag'>
+        <p>CONCLUSION</p>
+    </div>
+    <p>I really enjoyed this project, especially analyzing data and thinking strategically about how to segment
+        members. As a UX intern, I was not anticipating to play such a large role in data analysis 
+        but I am grateful that I had the opportunity to explore this area. I think that combining quantitiative
+        data with qualitative insights allowed us to understand the users holistically. I loved this 
+        project because I was involved in all aspects of creating the email campaign which gave me a 
+        multi-faceted experience and allowed me to explore new areas of interest.</p>
+
 
 <?php include("includes/footer.php"); ?>
+</div>
