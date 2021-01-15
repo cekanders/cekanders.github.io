@@ -37,11 +37,12 @@
         <p>SUMMARY</p>
     </div>
 
-    <p>I worked as a Product Management intern for SimpliFed, a start up in the virtual lactation space, to improve the overall user experience and user engagement of the site. 
-    SimpliFed is a HIPPA-compliant video service platform that connects new moms with IBCLCs, International Board Certified Lactation Consultants. 
-    During my internship, I mapped out objectives and key results and collaborated with design and development teams to update web pages.
-    In addition, I met virutally with new moms to conduct user research and usability testing to understand their needs and pain-points with the current product.</p>
-
+    <div class='linked'>
+        <p>I worked as a Product Management intern for <a href='https://simplifed.us/'>SimpliFed</a>, a start up in the virtual lactation space, to improve the overall user experience and user engagement of the site. 
+        SimpliFed is a HIPPA-compliant video service platform that connects new moms with IBCLCs, International Board Certified Lactation Consultants. 
+        During my internship, I mapped out objectives and key results and collaborated with design and development teams to update web pages.
+        In addition, I met virutally with new moms to conduct user research and usability testing to understand their needs and pain-points with the current product.</p>
+    </div>
     <div class="tag">
         <p>THE PROBLEM</p>
     </div>
@@ -421,8 +422,8 @@
     clicks on a button or signs up for an appointment, as those metrics would be more telling of 
     our progress and what needs improvement. Overall, my favorite part of the experience was 
     acting as the intermediary between the design and development teams and planning our goals 
-    and course of action to achieve them. I'm excited to see how SimpliFed evolves in the future!</p>
-
+    and course of action to achieve them. I'm excited to see how SimpliFed evolves in the future!
 
     
 <?php include("includes/footer.php"); ?>
+</div>
