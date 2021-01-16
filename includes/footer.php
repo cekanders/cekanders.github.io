@@ -2,6 +2,7 @@
 <hr>
 <div class='space'></div>
 <div class='center2'>
+    <p>text</p>
     <div class='pushleft'>
         <img class='img_footer' src='images/logo3.png' alt='logo'>
     </div>
