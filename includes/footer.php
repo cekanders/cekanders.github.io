@@ -1,5 +1,5 @@
 <div class='space'></div>
-<hr>
+<hr></hr>
 <div class='space'></div>
 <div class='center2'>
     <img class='img_footer' src='images/logo3.png' alt='logo'>
