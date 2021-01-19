@@ -364,12 +364,11 @@ img {
     border-width: 5px;
 }
 
-@media (max-width: 1400px) {
-    .row2 img{
-        height: 300px;
-        width: 300px;
-    }
-}
+
+.row2 img {
+   height: 300px;
+   width: 300px;
+  }
 
 @media (max-width: 600px) {
 
