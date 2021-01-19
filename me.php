@@ -14,7 +14,7 @@ include("includes/nav.php"); ?>
     and the <a href='https://www.cornellswib.com/'>Society for Women in Business</a>.
     In my free time, I enjoy exercising, listening to music, trying new restaurants in Ithaca, and traveling.</p>
     
-    <img class='img_padding1' src="images/me2.png" alt="me"/>
+    <img class='img_paddingl' src="images/me2.png" alt="me"/>
     
 </div>
 <div class='space'></div>
