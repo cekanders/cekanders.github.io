@@ -136,14 +136,8 @@ img {
     padding-right: 30px;
 }
 
-.img_paddingr {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 00px;
-    padding-right: 30px;
-}
 
-.img_padding1 {
+.img_paddingl {
     max-width: 100%;
     height: auto;
     padding-left: 10px;
@@ -365,10 +359,11 @@ img {
 }
 
 
-.row2 img {
-   height: 300px;
-   width: 300px;
-  }
+.row2 img{
+    height: 300px;
+    width: 300px;
+}
+
 
 @media (max-width: 600px) {
 
