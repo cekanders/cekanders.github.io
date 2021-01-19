@@ -14,9 +14,10 @@ include("includes/nav.php"); ?>
     and the <a href='https://www.cornellswib.com/'>Society for Women in Business</a>.
     In my free time, I enjoy exercising, listening to music, trying new restaurants in Ithaca, and traveling.</p>
     
-    <img src="images/me2.png" alt="me"/>
+    <img class='img_padding1' src="images/me2.png" alt="me"/>
     
 </div>
+<div class='space'></div>
 
 <div class='linked'>
 <p> My journey into product began with my internship at <a href='https://www.catch-nyc.com/'>Catch New York</a> last summer. 
