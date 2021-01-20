@@ -433,12 +433,12 @@ img {
     }
 
     .intro p {
-        font-size: 45px ;
+        font-size: 40px ;
         font-family: "Avenir Heavy", sans-serif;
     }
 
     .intro2 p {
-        font-size: 30px ;
+        font-size: 25px ;
     }
 
     .intro {
@@ -462,11 +462,15 @@ img {
     }
 
     .alignleft img {
-        max-width: 80%;
+        max-width: 100%;
         padding-bottom: 0px;
         padding-right: 0px;
-        padding-left: 25px;
+        padding-left: 20px;
         padding-top: 0px;
+    }
+
+    .alignleft li{
+        width: 200px;
     }
 
     .alignright li {
@@ -474,10 +478,13 @@ img {
         padding-top: 0px;
         padding-bottom: 40px;
         padding-left: 0px;
-        padding-right: 10px;
+        padding-right: 5px;
         text-align: left;
     }
 
+    .alignright {
+        margin-right: 20px;
+    }
     .current_page {
         border-width: 2px;
         padding: 0px;
