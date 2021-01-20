@@ -434,12 +434,13 @@ img {
 
     .intro p {
         font-size: 40px ;
-        font-family: "Avenir Heavy", sans-serif;
-	font-weight: 600px;
+        font-family: "Avenir", sans-serif;
+        font-weight: 600;
     }
 
     .intro2 p {
         font-size: 25px ;
+        
     }
 
     .intro {
@@ -508,10 +509,10 @@ img {
         margin-left: 4%;
         margin-bottom: 60px;
     }
-	
-    .button p {
-	font-weight: 600;
-     }
+
+    .button p{
+        font-weight: 1000;
+    }
 
     .narrow {
         padding-left: 0px;
@@ -538,6 +539,7 @@ img {
 
     .small p {
         font-size: 13px;
+        font-weight: 600;
     }
 
     .newtag p {
