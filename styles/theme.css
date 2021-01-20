@@ -34,6 +34,7 @@ table td {
 nav li{
     display: inline-block;
     font-size: 20px;
+
     padding-right: 15px;
     font-family: "Avenir", sans-serif;
 }
@@ -348,7 +349,13 @@ img {
 
 .second {
     width: 100%;
+    padding-left: 7px;
 }
+
+.small {
+    padding: 0px;
+}
+
 
 .current_page {
     border-bottom: solid;
@@ -372,9 +379,14 @@ img {
         font-family: "Avenir", sans-serif;
         padding-top: 30px;
         padding-bottom: 50px;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0px;
+    }
+
+    .bar{
         padding-left: 3%;
         padding-right: 3%;
-        margin: 0px;
     }
 
     body p {
@@ -421,25 +433,49 @@ img {
     }
 
     .intro p {
-        font-size: 40px ;
+        font-size: 45px ;
         font-family: "Avenir Heavy", sans-serif;
+    }
+
+    .intro2 p {
+        font-size: 30px ;
+    }
+
+    .intro {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+    }
+    
+    .intro2 {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-left: 8px;
+    }
+
+    .space {
+        padding-bottom: 10px;
+    }
+
+    .nav {
+        text-align: right;
     }
 
     .alignleft img {
         max-width: 80%;
         padding-bottom: 0px;
         padding-right: 0px;
-        padding-left: 3%;
+        padding-left: 25px;
         padding-top: 0px;
     }
 
     .alignright li {
-        display: block;
-        font-size: 15px;
+        font-size: 12px;
         padding-top: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 40px;
         padding-left: 0px;
-        padding-right: 3px;
+        padding-right: 10px;
+        text-align: left;
     }
 
     .current_page {
@@ -460,13 +496,9 @@ img {
     }
 
     .button {
-        padding-right: 55px;
-        margin-left: 3%;
+        padding-right: 20px;
+        margin-left: 4%;
         margin-bottom: 60px;
-    }
-
-    .pushleft img{
-        width: 200px;
     }
 
     .narrow {
@@ -487,17 +519,10 @@ img {
         width: 50%;
     }
     
-    .pushleft{
-        padding-top: 30px;
-        padding-left: 50px;
-        margin: auto;
-        width: 100%;
-    }
     
-    .pushleft img {
-        width: 150px;
+    .img_footer{
+        padding-right: 25px;
     }
-    
 
   }
 
