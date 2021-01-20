@@ -435,6 +435,7 @@ img {
     .intro p {
         font-size: 40px ;
         font-family: "Avenir Heavy", sans-serif;
+	font-weight: 600px;
     }
 
     .intro2 p {
