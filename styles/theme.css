@@ -508,6 +508,10 @@ img {
         margin-left: 4%;
         margin-bottom: 60px;
     }
+	
+    .button p {
+	font-weight: 600;
+     }
 
     .narrow {
         padding-left: 0px;
