@@ -583,4 +583,8 @@ img {
         padding-top: 30px;
         width: 90%;
     }
+
+    .width {
+        width: 415px;
+    }
   }
