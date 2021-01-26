@@ -287,6 +287,12 @@ img {
     padding-top: 40px;
 }
 
+.row2_reverse{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
 .row3{
     display: flex;
     flex-direction: row;
@@ -310,6 +316,24 @@ img {
 }
 
 .row2 a:hover{
+    text-decoration: none;
+    color: #7C38F2;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.row2_reverse a:link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.row2_reverse a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir Heavy', sans-serif;
+}
+
+.row2_reverse a:hover{
     text-decoration: none;
     color: #7C38F2;
     font-family: 'Avenir Heavy', sans-serif;
@@ -399,7 +423,12 @@ img {
 
 .row2 img{
     height: 300px;
-    width: 300px;
+    width: 310px;
+}
+
+.row2_reverse img{
+    height: 300px;
+    width: 310px;
 }
 
 
@@ -449,11 +478,22 @@ img {
 
     }
 
+    .row2_reverse{
+        display: block;
+        flex-direction: column-reverse;
+
+    }
+
     .first {
         width: 100%;
     }
 
     .row2 img{
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    .row2_reverse img{
         margin-left: 10%;
         width: 70%;
     }
@@ -581,10 +621,27 @@ img {
 
     .title_width4 {
         padding-top: 30px;
-        width: 90%;
+        width: 93%;
     }
 
     .width {
         width: 415px;
     }
+
+    .row2_reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+    }
+
+    .row2_reverse img{
+        height: 300px;
+        width: 310px;
+        margin-left: 15%;
+        margin-bottom: 30px;
+    }
+
   }
+
+
+  
