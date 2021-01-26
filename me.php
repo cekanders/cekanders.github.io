@@ -5,7 +5,7 @@ $resume = "other";
 $index = "other";
 include("includes/nav.php"); ?>
 
-<div class='row2'>
+<div class='row2_reverse'>
     <p><span style="font-family: Avenir Heavy; font-size: 40px">👋 Hey! I’m Chloe.</span><br></br>
     
     I’m a junior at <a href='https://www.cornell.edu/'>Cornell University</a> studying Information Science, with concentrations in User Experience and Data Science, and Business. 
