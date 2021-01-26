@@ -130,11 +130,11 @@
 
     <div class='row'>
         <div>
-            <span style="font-family: Avenir Heavy, sans-serif">Option 1</span>
+            <p><span style="font-family: Avenir Heavy, sans-serif">Option 1</span></p>
             <img class='img_cap' src="images/landing.png" alt="Landing 1" />
         </div>
         <div>
-            <span style="font-family: Avenir Heavy, sans-serif">Option 2</span>
+            <p><span style="font-family: Avenir Heavy, sans-serif">Option 2</span></p>
             <img class='img_cap' src="images/landing1.png" alt="Landing 1" />
         </div>
     </div>
