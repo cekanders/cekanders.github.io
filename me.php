@@ -6,7 +6,7 @@ $index = "other";
 include("includes/nav.php"); ?>
 
 <div class='row2'>
-    <p><span style="font-family: Avenir Heavy; font-size: 40px">Hey! I’m Chloe.</span><br></br>
+    <p><span style="font-family: Avenir Heavy; font-size: 40px">👋 Hey! I’m Chloe.</span><br></br>
     
     I’m a junior at <a href='https://www.cornell.edu/'>Cornell University</a> studying Information Science, with concentrations in User Experience and Data Science, and Business. 
     <br></br>I am passionate about solving problems to create meaningful change for individuals and organizations via digital platforms. 
@@ -26,4 +26,5 @@ include("includes/nav.php"); ?>
     a startup in the healthcare space, this past semester.
 <br></br>I love to talking to new people and learning about their projects and experiences. If you would like to contact me, feel free to send me an email at cek223@cornell.edu or add me on <a href='https://www.linkedin.com/in/chloe-kanders-6b390a184/'>LinkedIn</a>.</p>
 </div>
+<div class='space'></div>
 <?php include("includes/footer.php"); ?>
