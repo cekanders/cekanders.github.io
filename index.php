@@ -6,7 +6,7 @@ $work = "current_page";
 include("includes/nav.php"); ?>
 
 <div class='intro'>
-    <p>👋 Hello, I'm Chloe.<p>
+    <p>Hello, I'm Chloe.<p>
 </div>
 <div class='intro2'>
     <p>I create data-driven solutions and product-minded strategies.</p>
