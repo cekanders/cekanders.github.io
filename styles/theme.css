@@ -227,16 +227,16 @@ img {
 
 .title_width2 {
     padding-top: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .title_width3 {
-    padding-left: 500px;
+    padding-left: 0px;
 }
 
 .title_width4 {
-    padding-top: 30px;
-    width: 70%;
+    padding-top: 35px;
+    width: 100%;
 }
 
 .width {
@@ -637,7 +637,7 @@ img {
     .row2_reverse img{
         height: 300px;
         width: 310px;
-        margin-left: 15%;
+        margin-left: 38px;
         margin-bottom: 30px;
     }
 
