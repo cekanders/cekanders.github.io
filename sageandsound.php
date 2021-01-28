@@ -11,13 +11,13 @@
 
         <div class='title'>
             <p>Sage and Sound</p>
-        </div>
+    </div>
 
         <div class='small2'>
             <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> May-August 2020 (12 weeks)
             <br>
             <br>
-            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Johnnie Aiello (UX Director), Brooke Boland (Visual Designer), Ruthie Friedlander (Copywriter) <br>
             <br>
             <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Market Research, Wireframing, Visual Design <br>
             <br>
@@ -55,7 +55,7 @@
 
     <p>In their daily busy lives, people often prioritize other aspects of their lives over 
     wellness which can result in one becoming out of touch with themselves and their mental and 
-    physical health. Health-concious individuals in NYC lack a space and community to pursue
+    physical health. Health-conscious individuals in NYC lack a space and community to pursue
     their wellness journey and can feel lost exploring different options.</p>
 
     <div class="tag">
@@ -71,7 +71,7 @@
         <p>BLOG DESIGNS</p>
     </div>
 
-    <p>I speadheaded the blog design initiative by ideating different user flows and brainstorming ways 
+    <p>I spearheaded the blog design initiative by ideating different user flows and brainstorming ways 
     to present information to readers. I came up with several different designs for different pages such as the 
     Landing Page, Filter Page, News, Events, and Posts. In this process, I first created wireframes 
     to understand the information architecture of the site. Once my team and I selected which wireframes 
@@ -150,8 +150,8 @@
 
     <p>After a user scrolls through all of the featured articles, he/she is introduced 
     to the four categories of content and can browse through available articles in that category on the featured
-    page or visit the category page. Through several iterations, I decided on presenting each category in a horiztonal row carousel. 
-    By presenting a few articles for each category on the featured page, the user can is exposed to all of the categories before choosing which one he/she is most interested in.
+    page or visit the category page. Through several iterations, I decided on presenting each category in a horizontal row carousel. 
+    By presenting a few articles for each category on the featured page, the user is exposed to all of the categories before choosing which one he/she is most interested in.
     I also had to consider how much information should be presented on each article such as title, type 
     of content, author, date, etc. I decided to go with less information, only including the title and article 
     type to maintain the viewer's focus. Finally, I had to consider the placement and number of 
@@ -217,7 +217,7 @@
     </div>
     <p>My team and I designed different post pages depending on the type of content on the page. 
     For the article page, we had to consider the placement of the title and images, block quotes, headers, 
-    and bullets. Each post concludes with a suggested posts horizontal carousel at the bottom of the 
+    and bullets. Each post concludes with a horizontal carousel of suggested posts at the bottom of the 
     page to encourage users to explore other articles that may be of interest to them.</p>
     <div class='space'></div>
     <img class='img_home' src="images/article.png" alt="Article" />
@@ -328,50 +328,33 @@
         <p>LIVESTREAMING COSTS</p>
     </div>
     <p>In order to facilitate a sense of community during online classes, we need to build out 
-    an interactive video platform by using several services. From a strategic persepctive, I had
+    an interactive video platform by using several services. From a strategic perspective, I had
     to think about how we could minimize our costs while finding an effective video infrastructure.
     We decided to go with Mux to build live videos but had to approximate costs based on factors such 
     as video duration, videos/month, monthly view count, and watch time to find total costs. 
     In addition, we needed to employ a server, streaming software, and chat service. We used 
-    the folowing equation to calculate total costs: </p>
+    the following equation to calculate total costs: </p>
     <div class='space'></div>
-    <p><span style="font-family: Avenir Heavy, sans-serif">Total Cost = Mux + Netlify Server ($99) + Streaming Software + Chat Service</span></p>
+    <p><span style="font-family: Avenir Heavy, sans-serif">Total Cost = Mux + Netlify Server + Streaming Software + Chat Service</span></p>
 
     <div class="tag">
         <p>MUX SCENARIOS</p>
     </div>
-    <p>Based on the following scenarios, I created a spreadsheet to figure out how we could optimize 
-    our costs on Mux, while taking our needs into consideration.</p>
-    <div class='space'></div>
-    <p><span style="font-family: Avenir Heavy, sans-serif">Duration (minutes)</span></p>
-    <p>30, 45, 60, 90</p>
-    <div class='space'></div>
-
-    <p><span style="font-family: Avenir Heavy, sans-serif">Videos/Month</span></p>
-    <p>5, 15, 30, 60</p>
-    <div class='space'></div>
-
-    <p><span style="font-family: Avenir Heavy, sans-serif">Monthly View Count</span></p>
-    <p>50, 1,500, 5,000</p>
-    <div class='space'></div>
-    <p><span style="font-family: Avenir Heavy, sans-serif">Watch Time (percentage)</span></p>
-    <p>30%, 50%, 90%, 100%</p>
-
+    <p>I created a spreadsheet to figure out how we could optimize our costs on Mux, while taking our needs into consideration.</p>
     <div class='space'></div>
     <img class='img_home' src="images/cost_estimator.png" alt="Cost Estimator" />
 
-    <p>From this spreadsheet, I was able to find the lowest and highest possible total cost/stream, 
-    $0.15 and $21.31, respectively. This information was used to make decisions regarding 
+    <p>From this spreadsheet, I was able to find the lowest and highest possible total cost/stream. This information was used to make decisions regarding 
     the streaming software and chat service selected as well as a plan on Mux.</p>
 
     <div class="tag">
         <p>CONCLUSION</p>
     </div>
     <p>I really enjoyed this project as someone who is passionate about health and wellness myself. 
-    Taking owernship of the blog designs allowed me to strengthen my skills in wireframing. I thought 
+    Taking ownership of the blog designs allowed me to strengthen my skills in wireframing. I thought 
     that working on the layout of the blog was a unique experience and looking at other blogs 
     for inspiration was essential. I also found working on the pricing strategy of the livestreaming 
-    platform and learning about how video livestreaming works to be really valuable. On this project, I had the opportunity to participate in meetings 
+    platform and learning about how video livestreaming works to be a really valuable experience. On this project, I had the opportunity to participate in meetings 
     with the client and offer my feedback and opinion which was exciting and I can't wait to see how 
     this brand takes off in person.</p>
 
