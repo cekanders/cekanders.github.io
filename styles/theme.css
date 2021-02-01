@@ -472,6 +472,10 @@ img {
         padding-bottom: 10px;
     }
 
+    .row {
+        padding-left: 7px;
+    }
+
     .row2{
         display: block;
         flex-direction: column-reverse;
@@ -508,7 +512,7 @@ img {
         font-family: "Avenir", sans-serif;
         font-weight: 500;
     }
-
+    
     .intro2 p {
         font-size: 25px ;
         
@@ -642,9 +646,3 @@ img {
     }
 
   }
-
-
-  
-
-
-  
