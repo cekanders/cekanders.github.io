@@ -439,8 +439,8 @@ img {
         font-family: "Avenir", sans-serif;
         padding-top: 20px;
         padding-bottom: 50px;
-        padding-left: 1.4%;
-        padding-right: 0%;
+        padding-left: 0%;
+        padding-right: 0.8%;
         margin: 0px;
     }
 
@@ -512,7 +512,7 @@ img {
         font-family: "Avenir", sans-serif;
         font-weight: 500;
     }
-    
+
     .intro2 p {
         font-size: 25px ;
         
@@ -622,6 +622,13 @@ img {
         font-family: "Avenir", sans-serif;
         font-weight: 500;
     }
+
+    .title_width2 {
+        padding-top: 10px;
+        width: 50%;
+    }
+
+
 
     .title_width4 {
         padding-top: 30px;
