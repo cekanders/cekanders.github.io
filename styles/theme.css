@@ -660,7 +660,7 @@ img {
     }
 
     .table_style {
-        width: 350px;
+        width: 300px;
         padding: 0px;
         margin: 0px;
     }
@@ -670,7 +670,7 @@ img {
     }
 
     table p{
-        font-size: 5px;
+        font-size: 8px;
         padding: 0px;
         margin: 0px;
     }
