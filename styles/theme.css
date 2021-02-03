@@ -667,15 +667,14 @@ img {
         margin-left: 30px;
     }
 
-    .table_style p{
-        font-size: 10px;
+    table p{
+        font-size: 5px;
         padding: 0px;
-        padding-left: 0px;
         margin: 0px;
     }
 
+    
     .list {
-        padding-left: 1px;
         padding-bottom: 3px;
     }
 
