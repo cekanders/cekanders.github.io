@@ -660,13 +660,14 @@ img {
     }
 
     .table_style {
-        width: 385px;
+        width: 350px;
         padding-left: 30px;
     }
 
     .table_style p{
-        font-size: 8px;
+        font-size: 5px;
         padding: 0px;
+        padding-left: 0px;
         margin: 0px;
     }
 
@@ -678,3 +679,6 @@ img {
     ul{ list-style: none; }
 
   }
+
+
+  
