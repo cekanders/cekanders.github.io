@@ -5,7 +5,7 @@
 
 <div class='row'>
 
-    <div>
+    <div class='width'>
         <div class="tag">
         <p>UX INTERNSHIP</p>
         </div>
@@ -22,18 +22,20 @@
             <br>
             <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Market Research, Data Analysis, Customer Segmentation, Visual Design <br>
             <br>
-            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Python, Figma, Sketch, Frontitude</p>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Python, Figma, Sketch, Frontitude
         </div>
     </div>
 
     <div>
-        <div class="title_width2">
+        <div class="title_width">
             <img src="images/iPhoneX.png" />
         </div>
     </div>
 </div>
 
-<hr>
+<div class='bar'>
+    <hr>
+</div>
 
 <div class='narrow'>
     <div class="tag">
@@ -85,23 +87,25 @@
     </div>
 
     <div class='space'>
-    <table style="table-layout: fixed ; width: 100%;">
-    <tr>
-        <th><p>Negative Correlation</p></th>
-        <th><p>Positive Correlation</p></th>
-    </tr>
-    <tr>
-        <td><ul class='list'>
-            <li><p>Age</p></li>
-            <li><p>Income</p></li>
-            <li><p>Home Value</p></li>
-        </td>
-        <td><ul class='list'>
-            <li><p>Profitability</p></li>
-            <li><p>Interest in International Travel</p></li>
-        </td>
-    </tr>
-    </table>
+    <div class='table_remove'>
+        <table style="table-layout: fixed ; width: 100%;">
+        <tr>
+            <th><p>Negative Correlation</p></th>
+            <th><p>Positive Correlation</p></th>
+        </tr>
+        <tr>
+            <td><ul class='list'>
+                <li><p>Age</p></li>
+                <li><p>Income</p></li>
+                <li><p>Home Value</p></li>
+            </td>
+            <td><ul class='list'>
+                <li><p>Profitability</p></li>
+                <li><p>Interest in International Travel</p></li>
+            </td>
+        </tr>
+        </table>
+    </div>
     </div>
 
     <div class='space'>
@@ -140,7 +144,6 @@
                 <img class='img_home' src="images/general.png" alt="General" />
             </figure>
         </div>
-
 
 </div>
 
@@ -262,6 +265,7 @@
     descriptors were created:</p>
     <div class='space'></div>
 
+    <div class='table_remove'>
     <table style="table-layout: fixed ; width: 100%;">
     <tr>
         <th><p>Segment</p></th>
@@ -328,6 +332,7 @@
     </p></td>
     </tr>
     </table>
+    </div>  
 
     <div class='space'></div>
     <p> For each segment, copy was developed using different messaging for each group based on the tone of voice descriptor and placed into email template designs.</p>
@@ -341,6 +346,5 @@
         project because I was involved in all aspects of creating the email campaign which gave me a 
         multi-faceted experience and allowed me to explore new areas of interest.</p>
 
-
+<div class='space'></div>
 <?php include("includes/footer.php"); ?>
-</div>
