@@ -87,8 +87,7 @@
     </div>
 
     <div class='space'>
-    <div class='table_remove'>
-        <table style="table-layout: fixed ; width: 100%;">
+        <table style="table-layout: fixed;">
         <tr>
             <th><p>Negative Correlation</p></th>
             <th><p>Positive Correlation</p></th>
@@ -105,7 +104,6 @@
             </td>
         </tr>
         </table>
-    </div>
     </div>
 
     <div class='space'>
@@ -265,8 +263,8 @@
     descriptors were created:</p>
     <div class='space'></div>
 
-    <div class='table_remove'>
-    <table style="table-layout: fixed ; width: 100%;">
+    <div class='table_style'>
+    <table style="table-layout: fixed;">
     <tr>
         <th><p>Segment</p></th>
         <th><p>SHAP Features</p></th>
