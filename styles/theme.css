@@ -264,6 +264,7 @@ img {
     padding-right: 100px;
 }
 
+
 .list {
     padding-left: 20px;
 }
@@ -445,10 +446,11 @@ img {
     }
 
     .bar{
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 8%;
+        padding-right: 7%;
     }
 
+    
     body p {
        margin-left: 18px;
     }
@@ -653,6 +655,3 @@ img {
     }
 
   }
-
-
-  
