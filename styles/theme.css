@@ -660,7 +660,9 @@ img {
     }
 
     .table_style {
-        width: 380px;
+        width: 350px;
+        padding: 0px;
+        margin: 0px;
     }
 
     table {
@@ -673,11 +675,18 @@ img {
         margin: 0px;
     }
 
-    
     .list {
-        padding-bottom: 3px;
+        padding: 0px;
+        margin: 0px;
     }
 
     ul{ list-style: none; }
 
+    td {
+        padding: 2px;
+    }
+
+    th {
+        padding: 5px;
+    }
   }
