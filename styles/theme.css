@@ -653,5 +653,9 @@ img {
         margin-left: 38px;
         margin-bottom: 30px;
     }
+	
+    .narrow p {
+        padding-left: 10px;
+    }
 
   }
