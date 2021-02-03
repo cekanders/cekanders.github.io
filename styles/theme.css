@@ -659,18 +659,22 @@ img {
         margin-bottom: 30px;
     }
 
-    .table_remove {
+    .table_style {
         width: 385px;
         padding-left: 30px;
     }
 
-    .table_remove p{
-        font-size: 7px;
+    .table_style p{
+        font-size: 8px;
         padding: 0px;
         margin: 0px;
     }
 
+    .list {
+        padding-left: 1px;
+        padding-bottom: 3px;
+    }
+
+    ul{ list-style: none; }
+
   }
-
-
-  
