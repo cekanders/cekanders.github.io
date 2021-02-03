@@ -660,12 +660,11 @@ img {
     }
 
     .table_style {
-        width: 200px;
-        padding: 0px;
-        margin: 0px;
+        width: 300px;
     }
-
+    
     table {
+        width: 50%;
         margin-left: 30px;
         margin-right: 30px;
     }
