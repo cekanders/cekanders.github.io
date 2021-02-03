@@ -691,4 +691,8 @@ img {
     th {
         padding: 5px;
     }
+
+    .center {
+        padding-left: 0%;
+    }
   }
