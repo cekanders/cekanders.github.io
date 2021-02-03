@@ -16,6 +16,9 @@ h1{
     font-size: 30px;
 }
 
+table {
+    width: 100%;
+}
 table, td, th {
     padding: 10px;
     border: 2px solid black;
@@ -659,12 +662,8 @@ img {
         margin-bottom: 30px;
     }
 
-    .table_style {
-        width: 300px;
-    }
-    
     table {
-        width: 50%;
+        width: 80%;
         margin-left: 30px;
         margin-right: 30px;
     }
