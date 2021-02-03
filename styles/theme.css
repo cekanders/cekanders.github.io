@@ -1,664 +1,350 @@
-* { margin:0; padding:0; box-sizing:border-box; }
-
-body {
-    width: 100%;
-    font-family: "Avenir", sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-}
+<?php include("includes/init.php"); ?> 
+<?php include("includes/head.php"); ?>
+<?php include("includes/nav.php"); ?>
 
 
-h1{
-    font-family: "Avenir", sans-serif;
-    text-align: left;
-    font-size: 30px;
-}
+<div class='row'>
 
-table, td, th {
-    padding: 10px;
-    border: 2px solid black;
-    border-collapse: collapse;
-}
+    <div class='width'>
+        <div class="tag">
+        <p>UX INTERNSHIP</p>
+        </div>
 
-table p {
-    font-size: 17px;
-}
+        <div class='title'>
+            <p>Parachute Email Campaign</p>
+        </div>
 
-table td {
-    vertical-align: top;
-}
+        <div class='small2'>
+            <span style="font-family: Avenir Heavy, sans-serif">DURATION</span><br> May-August 2020 (12 weeks)
+            <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TEAM</span><br> Katharina Ruckelshausen-Oni (Account Manager), Johnnie Aiello (UX Director), Brooke Boland (Visual Designer) <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">FOCUS</span><br> Market Research, Data Analysis, Customer Segmentation, Visual Design <br>
+            <br>
+            <span style="font-family: Avenir Heavy, sans-serif">TOOLS</span><br> Python, Figma, Sketch, Frontitude
+        </div>
+    </div>
 
+    <div>
+        <div class="title_width">
+            <img src="images/iPhoneX.png" />
+        </div>
+    </div>
+</div>
 
-nav li{
-    display: inline-block;
-    font-size: 20px;
+<div class='bar'>
+    <hr>
+</div>
 
-    padding-right: 15px;
-    font-family: "Avenir", sans-serif;
-}
+<div class='narrow'>
+    <div class="tag">
+        <p>SUMMARY</p>
+    </div>
 
+    <p>During my internship at Catch New York Agency, I collaborated with a team to create an acquisition email series campaign targeted at eligible organization members for Parachute Digital Solutions, an end-to-end insurance platform. In this process, I conducted market research and analyzed data in order to segment customers, as well as iterated on the visual design of the emails for two products: Cancer Insurance and Sr. Term Life Insurance. </p>
 
-p {
-    font-family: "Avenir", sans-serif;
-    font-size: 20px;
-    margin: 0px;
-}
+    <div class="tag">
+        <p>THE PROBLEM</p>
+    </div>
+    <p>Some mid to lower level insurance plans do not provide cancer coverage or life insurance. Oftentimes, people believe that they are healthy will not get cancer or are unaware of the need for coverage via an email campaign.</p> 
 
-.row{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 10px;
-}
+    <div class="tag">
+        <p>THE SOLUTION</p>
+    </div>
+    <p>To inform people about potential health risks and how they can take control of their health, Parachute is partnering with organizations to promote an exclusive offer for members
+    through a marketing email campaign.</p>
 
-
-a:link{
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover{
-    color: #7C38F2;
-}
-
-a:active{
-    color: #7C38F2;
-}
-
-.alignleft {
-    float:left;
-}
-
-.alignright {
-	float: right;
-}
-
-.intro {
-    padding-top: 50px;
-    padding-bottom: 5px;
-}
-
-.intro2 {
-    padding-top: 15px;
-    padding-bottom: 25px;
-}
-
-.intro2 p{
-    font-size: 35px;
-}
-
-.intro p {
-    font-size: 60px ;
-    font-family: "Avenir Heavy", sans-serif;
-}
-
-
-.gallery {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0px;
+    <div class="title2">
+    <p>Cancer Insurance</p>
+    </div>
     
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 0px;
-    padding-right: 0px;
-}
-
-.img_home {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 30px;
-    padding-right: 30px;
-}
-
-.img_cap {
-    max-width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-}
-
-.img_center {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 30px;
-    padding-right: 30px;
-    padding-left: 10%;
-}
-
-.img_footer {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-    padding-top: 10px;
-  }
-
-  
-.img_paddingr {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 00px;
-    padding-right: 30px;
-}
-
-
-.img_paddingl {
-    max-width: 100%;
-    height: auto;
-    padding-left: 10px;
-}
-
-.img_paddingt {
-    max-width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-right: 10px;
-}
-
-.img_paddingb2 {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 25px;
-    padding-right: 0px;
-}
-
-
-.tag p {
-    font-size: 18px;
-    color: #7C38F2;
-    font-family: 'Avenir Heavy', sans-serif;
-    padding-bottom: 10px;
-    padding-top: 30px;
-}
-
-.newtag p {
-    font-size: 33px;
-    color: #7C38F2;
-    font-family: 'Avenir Heavy', sans-serif;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.button p{
-    font-size: 15px;
-    color: #7C38F2;
-    padding-left: 20px;
-    padding-top: 7px;
-    padding-right: 20px;
-    padding-bottom: 7px;
-    font-weight: 600;
-}
-
-.button {
-    display: inline-block;
-    border: solid;
-    border-color: #7C38F2;
-    border-width: 2px;
-    border-radius: 10px;
-    background-color: whitek;
-}
-.title p {
-    font-size: 40px;
-    font-family: "Avenir Heavy", sans-serif;
-    padding-bottom: 20px;
-}
-
-.title_white {
-    width: 200px;
-    padding-right: 50px;
-}
-
-.title_width {
-    padding-top: 60px;
-    padding-bottom: 10px;
-}
-
-.title_width2 {
-    padding-top: 10px;
-    width: 100%;
-}
-
-.title_width3 {
-    padding-left: 0px;
-}
-
-.title_width4 {
-    padding-top: 35px;
-    width: 100%;
-}
-
-.width {
-    width: 1500px;
-}
-
-.title_white p {
-    font-size: 40px;
-    font-family: "Avenir Heavy", sans-serif;
-    padding-bottom: 10px;
-}
-
-.title2 p {
-    font-size: 40px;
-    font-family: "Avenir Heavy", sans-serif;
-    padding-top: 50px;
-}
-
-.small p {
-    font-size: 18px;
-}
-
-.narrow {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-
-.list {
-    padding-left: 20px;
-}
-
-.list p {
-    padding-bottom: 10px;
-}
-
-.list1 {
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-.list_style {
-    padding-bottom: 10px;
-}
-
-.row2{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-}
-
-.row2_reverse{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-}
-
-.row3{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-}
-
-.linked{
-    padding-top: px;
-}
-
-.row2 a:link{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.row2 a:visited{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.row2 a:hover{
-    text-decoration: none;
-    color: #7C38F2;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.row2_reverse a:link{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.row2_reverse a:visited{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.row2_reverse a:hover{
-    text-decoration: none;
-    color: #7C38F2;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.linked a:link{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.linked a:visited{
-    text-decoration: none;
-    color: black;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.linked a:hover{
-    text-decoration: none;
-    color: #7C38F2;
-    font-family: 'Avenir Heavy', sans-serif;
-}
-
-.space {
-    padding-bottom: 20px;
-}
-
-.longspace {
-    padding-bottom: 50px;
-}
-
-.smallspace {
-    padding-bottom: 5px;
-}
-
-.center {
-    padding-left: 18%;
-}
-
-.center2 {
-    margin: auto;
-    width: 50%;
-}
-
-.center2 p{
-    font-size: 14px;
-    text-align: center;
-}
-
-
-.pushleft{
-    padding-top: 30px;
-    margin: auto;
-    width: 100%;
-}
-
-
-
-.new_spacing {
-    padding: 0;
-    margin: 0;
-}
-
-.first {
-    width: 80%;
-}
-
-
-.second {
-    width: 100%;
-    padding-left: 7px;
-}
-
-.small {
-    padding: 0px;
-}
-
-
-.current_page {
-    border-bottom: solid;
-    border-color: #7C38F2;
-    background-color: white;
-    padding: 5px;
-    border-width: 5px;
-}
-
-
-.row2 img{
-    height: 300px;
-    width: 310px;
-}
-
-.row2_reverse img{
-    height: 300px;
-    width: 310px;
-}
-
-
-@media (max-width: 600px) {
-
-    body {
-        width: 100%;
-        font-family: "Avenir", sans-serif;
-        padding-top: 20px;
-        padding-bottom: 50px;
-        padding-left: 0%;
-        padding-right: 1%;
-        margin: 0px;
-    }
-
-    .bar{
-        padding-left: 8%;
-        padding-right: 7%;
-    }
-
+    <div class='tag'>
+        <p>DATA INTERPRETATION</p>
+    </div>
+
+    <p>In order to create segments for the email campaign, I interpreted SHAP values for different features (ex. age, income) which indicate closeness to the average prediction, measuring consumer behavior.  
+        A negative correlation between variables indicates that as the variable tested increases, consumers are less like the target audience. 
+        A positive correlation between variables indicates that as the variable tested increases, consumers are more like the target audience. 
+        I grouped features based on whether there was a negative or positive correlation to determine which features were characteristic of our target audience. 
+
+    <p>
+
+        <div class='space'></div>
+        <div class='small'>
+            <p><span style="font-family: Avenir Heavy">SHAP Values</span></p>
+        </div>
+
+        <img src='images/shap.png' alt='shap'/>
+        <div class='smallspace'></div>
+        <div class='small'>
+            <p><span>&#42;</span>Red indicates high feature value and blue indicates low feature value</p>
+        </div>
+ 
+
+    <div class='tag'>
+        <p>FINDINGS</p>
+    </div>
+
+    <div class='space'>
+    <div class='table_remove'>
+        <table style="table-layout: fixed ; width: 100%;">
+        <tr>
+            <th><p>Negative Correlation</p></th>
+            <th><p>Positive Correlation</p></th>
+        </tr>
+        <tr>
+            <td><ul class='list'>
+                <li><p>Age</p></li>
+                <li><p>Income</p></li>
+                <li><p>Home Value</p></li>
+            </td>
+            <td><ul class='list'>
+                <li><p>Profitability</p></li>
+                <li><p>Interest in International Travel</p></li>
+            </td>
+        </tr>
+        </table>
+    </div>
+    </div>
+
+    <div class='space'>
+        <p>Through these findings, I was able to identify clear trends. 
+            Our target audience is predominately young with a low homevalue and income. 
+            However, a segment of our target audience has a high financial profitability which can be grouped with higher age and home value.
+            Finally, a large segment of our target audience is interested in international travel. 
+        </p>
+    </div>
+
+    <div class='tag'>
+        <p>SEGMENTS</p>
+    </div>
+
+    <p>Based on this information and reasoning, the following segements and tone of voice descriptors were created:</p>
+    <div class='space'></div>
+
+    <div class="gallery">
+
+        <div>
+            <figure>
+                <img class='img_home' src="images/explorers.png" alt="Explorers"/>
+            </figure>
+
+            <figure>
+                <img class='img_home' src="images/nextgen.png" alt="Next Gen" />
+            </figure>
+        </div>
+
+        <div>
+            <figure>
+                <img class='img_home' src="images/homeowners.png" alt="Homeowners" />
+            </figure>
+
+            <figure>
+                <img class='img_home' src="images/general.png" alt="General" />
+            </figure>
+        </div>
+
+</div>
+
+<p>For each segment, copy was developed using different messaging for each group based on the tone of voice descriptor and placed into email template designs.</p>
+
+    <div class="title2">
+    <p>Sr. Term Life Insurance</p>
+    </div>
+
+
+    <div class="tag">
+        <p>MARKET RESEARCH</p>
+    </div>
+    <p>Senior term life insurance allows policyholders to receive a payment, granted to their beneficiaries, upon death. The payment is only rewarded if the policyholder passes away during the term that their life insurance spans, typically ranging from one to 30 years. There are several reasons why one should invest in senior term life insurance such as providing funds for their funeral, granting family members an inheritance, and paying off debt and business-related financial obligations. Premiums are dependent on pre-existing medical conditions and age; those who are more at risk must pay higher rates to insure themselves. Senior term life is considerably more affordable than whole life term insurance. However, consumers must evaluate their goals and needs to determine what type of senior insurance is right for them.</p>
     
-    body p {
-       margin-left: 18px;
-    }
 
-    h1{
-        font-family: "Avenir", sans-serif;
-        text-align: left;
-        font-size: 20px;
-    }
+    <div class='tag'>
+        <p>DATA INTERPRETATION</p>
+    </div>
 
-    .gallery {
-        display: block;
+    <p>For the senior term life insurance product, we could not use the SHAP value data that we analyzed for the cancer insurance product to create segments because the SHAP values reflect the entire dataset and only organization members within the age range of 50-80 are targeted for this product. 
+        In order to better understand this niche target age range, I evaluated the significance of key features over different age groups to identify trends within the data.</p>
+        <div class='space'></div>
+
+        <p>The model score for an individual quantifies the individual’s similarity to the target market. 
+            I first identified the range of 65 to 75 as the group with the highest model score, on average, due to several outliers in the range. 
+        </p>
+            
+
+        <div class='space'></div>
         
-    }
+        <div class='center'>
+            <img class='img_paddingb' src="images/graph1.png" alt="Model Score" />
+            
+        </div>  
 
-    p {
-        font-family: "Avenir", sans-serif;
-        font-size: 15px;
-        margin: 0px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-    }
+        <p>*Numbers have been redacted from the graphs for privacy reasons</p>
+        <div class='space'></div>
+        <p>However, upon further analysis of the data, I determined that these outliers do not reflect the average of an age range and that finding the mean value for each age range is essential to accurately representing categorical trends. I wanted to understand the demographic distribution of the new market. 
+            I decided to focus on 5-year age groups because my market research suggested that these groups have different needs as they are enduring different stages in their lives. 
+            The graph is skewed right with a peak at the 60-65 bin, meaning that there is a disproportionately large number of seniors in the range 50-65 than 65-80 which was taken into consideration when determining the age bounds for segmentation.</p>
+        <div class='space'></div>
 
-    .narrow p {
-        padding-left: 11px;
-    }
+        <div class='center'>
+            <img class='img_paddingb' src="images/graph2.png" alt="Distribution of Age" />
+        </div>
+        <p>To identify trends in the dataset, I grouped the data into 5-year bins and took the mean across the individuals in each bin for a particular feature. 
+            I found that as age increases, model score increases, on average. 
+            Therefore, a further analysis of the features tested against model score will be necessary to identify the similarities between the target market and a more elderly audience.</p>
+        <div class='space'></div>
 
-    .row {
-        padding-left: 7px;
-    }
-
-    .row2{
-        display: block;
-        flex-direction: column-reverse;
-
-    }
-
-    .row2_reverse{
-        display: block;
-        flex-direction: column-reverse;
-
-    }
-
-    .first {
-        width: 100%;
-    }
-
-    .row2 img{
-        margin-left: 10%;
-        width: 70%;
-    }
-
-    .row2_reverse img{
-        margin-left: 10%;
-        width: 70%;
-    }
-
-    .row{
-        display: block;
-        padding-right: 0px;
-    }
-
-    .intro p {
-        font-size: 40px ;
-        font-family: "Avenir", sans-serif;
-        font-weight: 500;
-    }
-
-    .intro2 p {
-        font-size: 25px ;
+        <div class='center'>
+            <img class='img_paddingb' src="images/graph3.png" alt="Homeowners" />
+        </div>
         
-    }
+        <p>I hypothesized that as age increases, retirement rates would increase as well. 
+            The data shows that as age increases, average income decreases. 
+            A likely potential cause for this decrease in income is retirement, providing strong evidence to prove my hypothesis correct. 
+            Therefore, understanding the impact of retirement on one’s decision to purchase senior term life insurance and the connotations surrounding the word to an elderly audience is essential to understanding the customers’ needs.</p>
+        <div class='space'></div>
+        <div class='center'>
+            <img class='img_paddingb' src="images/graph4.png" alt="Homeowners" />
+        </div>  
+       
+   
 
-    .intro {
-        padding-top: 30px;
-        padding-bottom: 0px;
-        padding-left: 5px;
-    }
-    
-    .intro2 {
-        padding-top: 0px;
-        padding-bottom: 10px;
-        padding-left: 7px;
-    }
-
-    .space {
-        padding-bottom: 10px;
-    }
-
-    .nav {
-        text-align: right;
-    }
-
-    .alignleft img {
-        max-width: 100%;
-        padding-bottom: 0px;
-        padding-right: 0px;
-        padding-left: 25px;
-        padding-top: 0px;
-    }
-
-    .alignleft li{
-        width: 200px;
-    }
-
-    .alignright li {
-        font-size: 11px;
-        padding-top: 0px;
-        padding-bottom: 20px;
-        padding-left: 0px;
-        padding-right: 5px;
-        text-align: left;
-    }
-
-    .alignright {
-        margin-right: 20px;
-    }
-    .current_page {
-        border-width: 2px;
-        padding: 0px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        padding-left: 5%;
-    }
-
-
-    iframe {
-        width: 100%;
-        height: 300px";
-    }
-
-    .button {
-        padding-right: 20px;
-        margin-left: 4%;
-        margin-bottom: 60px;
-    }
-
-    .button p{
-        font-weight: 1000;
-    }
-
-    .narrow {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    .small2 {
-        margin-left: 5%;
-    }
-
-    .center {
-        padding-left: 18%;
-    }
-    
-    .center2 {
-        margin: auto;
-        width: 90%;
-    }
-    
-    
-    .img_footer{
-        padding-right: 25px;
-    }
-
-    .small p {
-        font-size: 13px;
-        font-weight: 400;
-    }
-
-    .newtag p {
-        padding-top: 0px;
-        font-family: "Avenir", sans-serif;
-        font-weight: 500;
-    }
-
-    .title_width2 {
-        padding-top: 10px;
-        width: 50%;
-    }
+    <div class='tag'>
+        <p>SHAP VALUE ANALYSIS</p>
+    </div>
+    <p> Although we could not interpret the SHAP value graph provided by the internal analytics team because that graph reflected the entire dataset, I was able to analyze raw SHAP values by finding the average across age groups. 
+        Through this analysis, I was able to determine whether an increase in a particular feature indicated that these individuals are more or less like the target market. 
+        I then used that information to test my hypotheses.
+        I chose several features to test, all of which were ranked high in importance and were relevant to purchasing life term insurance. </p>
+    <div class='space'></div>
 
 
 
-    .title_width4 {
-        padding-top: 30px;
-        width: 93%;
-    }
+    <div class='gallery'>
+        <div>
+            
+                <img class='img_paddingt' src="images/bloodpressure.png" alt="Blood Pressure" />
+                <div class='small'>
+                    <p><span style="font-family: Avenir Medium">Hypothesis:</span> As age increases, blood pressure increases.</p>
+                <div class='space'></div>
+                <div class='space'><p>The model proved my hypothesis correct.</p></div>
+                </div>
+        
+                <img class='img_paddingt' src="images/liability.png" alt="Liability" />
+                <div class='small'>
+                    <p><span style="font-family: Avenir Medium">Hypothesis: </span>As age increases, mortgage liability decreases.</p>
+                <div class='space'></div>
+                <div class='space'><p>The model proved my hypothesis correct.</p></div>
+                </div>
+        </div>  
+        
+        <div>
+        
+                <img class='img_paddingt' src="images/interest.png" alt="Interest" />
+                <div class='small'>
+                    <p><span style="font-family: Avenir Medium">Hypothesis:</span> As age increases, interest in  insurance increases.</p>
+                <div class='space'></div>
+                <div class='space'><p>The model proved my hypothesis incorrect. </p></div>
+                </div>
+                
+                <img class='img_paddingt' src="images/mortgage.png" alt="Blood Pressure" />
+                <div class='small'>
+                    <p><span style="font-family: Avenir Medium">Hypothesis: </span>As age increases, mortgage age increases.</p>
+                <div class='space'></div>
+                <div class='space'><p>The model proved my hypothesis correct.</p></div>
+                </div>
+        </div>
 
-    .width {
-        width: 415px;
-    }
+</div>
 
-    .row2_reverse{
-        display: flex;
-        flex-direction: column-reverse;
-        padding-top: 40px;
-    }
+    <div class='tag'>
+        <p>SEGMENTS AND ANALYSIS</p>
+    </div>
+    <p>Based on this information and reasoning, the following segements and tone of voice 
+    descriptors were created:</p>
+    <div class='space'></div>
 
-    .row2_reverse img{
-        height: 300px;
-        width: 310px;
-        margin-left: 38px;
-        margin-bottom: 30px;
-    }
+    <div class='table_remove'>
+    <table style="table-layout: fixed ; width: 100%;">
+    <tr>
+        <th><p>Segment</p></th>
+        <th><p>SHAP Features</p></th>
+        <th><p>TOV Descriptor</p></th>
+        <th><p>Research</p></th>
+        <th><p>User Stories</p></th>
+    </tr>
+    <tr>
+        <th><p>Young Elderly (Ages 50-64)</p></th>
+        <td>
+            <ul class='list'>
+                <li><p>Income: High</p>
+                <li><p>Mortgage Age: High</p>
+                <li><p>Mortgage Liability: High</p>
+                <li><p>Interest in Term Life Insurance: High</p>
+            </ul>
+        </td>
+        <td>
+        <p>Interested in investing in their future and reaping the long-term financial benefits of 
+        senior term insurance for their family</p></td>
+        <td>
+            <ul class='list'>
+                <li><p>Health begins to deteriorate </p>
+                <li><p>Living expenses may decrease</p>
+                <li><p>Mandatory age of retirement increasing to 66</p>
+                <li><p>Begin thinking about inheritance</p>
+            </ul>
+        </td>
+        <td>
+            <p>As a Young Elderly, I want to invest in senior term life insurance, so that I can support my family with expenses such as mortgage and my funeral costs after my passing.
+            <br></br>
+            As a Young Elderly, I want to invest in senior term life insurance at a younger age, so that I can pay lower premiums while I am still relatively healthy.</p>
+        </td>
+</ul>
+    </tr>
+    <tr>
+        <th><p>Old Elderly (Ages 65-80)</p></th>
+        <td>
+            <ul class='list'>
+                <li><p>Income: Low</p>
+                <li><p>High Blood Pressure: High</p>
+                <li><p>Interest in Term Life Insurance: Low</p>
+            </ul>
+        </td>
+        <td>
+        <p>In need of an urgent short-term solution as health rapidly declines, although may not be aware of this need</p>
+        <br>
+        <ul class='list'>
+                <li><p>Informative, factual</p>
+                <li><p>Should feel at ease despite increasing risks</p>
+                
+        </ul>
+        </td>
+        <td>
+            <ul class='list'>
+                <li><p>Good for people with a strict budget and want to prevent debts from accumulating </p>
+                <li><p>Whole life insurance is expensive but final expense insurance is a competitive option</p>
+                <li><p>Must be healthy to qualify for insurance at such an old age</p>
+            </ul>
+        </td>
+        <td><p>As an Old Elderly, I want to know that my family will be supported as my health deteriorates, so that I can feel at ease during retirement</p></td>
+        
+    </p></td>
+    </tr>
+    </table>
+    </div>  
 
-  }
+    <div class='space'></div>
+    <p> For each segment, copy was developed using different messaging for each group based on the tone of voice descriptor and placed into email template designs.</p>
+    <div class='tag'>
+        <p>CONCLUSION</p>
+    </div>
+    <p>I really enjoyed this project, especially analyzing data and thinking strategically about how to segment
+        members. As a UX intern, I was not anticipating to play such a large role in data analysis 
+        but I am grateful that I had the opportunity to explore this area. I think that combining quantitiative
+        data with qualitative insights allowed us to understand the users holistically. I loved this 
+        project because I was involved in all aspects of creating the email campaign which gave me a 
+        multi-faceted experience and allowed me to explore new areas of interest.</p>
 
-
-  
+<div class='space'></div>
+<?php include("includes/footer.php"); ?>
