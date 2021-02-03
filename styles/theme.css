@@ -465,8 +465,7 @@ img {
     }
 
     .gallery {
-        display: block;
-        
+        display: block; 
     }
 
     p {
@@ -477,8 +476,12 @@ img {
         padding-bottom: 10px;
     }
 
+    .table_style p {
+        padding-left: 0px;
+    }
+
     .narrow p {
-        padding-left: 13px;
+        padding-left: 10px;
     }
 
     .row {
@@ -663,7 +666,7 @@ img {
     }
 
     table {
-        width: 80%;
+        width: 85%;
         margin-left: 30px;
         margin-right: 30px;
     }
