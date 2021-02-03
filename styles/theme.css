@@ -474,6 +474,10 @@ img {
         padding-bottom: 10px;
     }
 
+    .narrow p {
+        padding-left: 11px;
+    }
+
     .row {
         padding-left: 7px;
     }
@@ -597,7 +601,7 @@ img {
     }
     
     .small2 {
-        margin-left: 4%;
+        margin-left: 5%;
     }
 
     .center {
@@ -653,9 +657,8 @@ img {
         margin-left: 38px;
         margin-bottom: 30px;
     }
-	
-    .narrow p {
-        padding-left: 10px;
-    }
 
   }
+
+
+  
