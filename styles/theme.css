@@ -440,13 +440,13 @@ img {
         padding-top: 20px;
         padding-bottom: 50px;
         padding-left: 0%;
-        padding-right: 0.95%;
+        padding-right: 1%;
         margin: 0px;
     }
 
     .bar{
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     body p {
@@ -604,7 +604,7 @@ img {
     
     .center2 {
         margin: auto;
-        width: 50%;
+        width: 100%;
     }
     
     
@@ -653,3 +653,6 @@ img {
     }
 
   }
+
+
+  
