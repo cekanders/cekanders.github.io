@@ -31,7 +31,10 @@
     </div>
 </div>
 
-<hr>
+<div class='bar'>
+    <hr>
+</div>
+
 <div class='narrow'>
     <div class="tag">
         <p>SUMMARY</p>
@@ -73,18 +76,20 @@
     <div class='list_style'>
         <p><span style="font-family: Avenir Medium">User Research Plan</span></p>
     </div>
-    <table style="table-layout: fixed ; width: 100%;">
-        <tr>
-            <th><p>Goal</p></th>
-            <th><p>Plan of Action</p></th>
-            <th><p>Timeline</p></th>
-        </tr>
-        <tr>
-            <td><p>Understand stakeholders’ painpoints, needs, and goals surrounding infant feeding</p></td>
-            <td><p>Conduct 20-minute interviews with new moms from online communities and friends</p></td>
-            <td><p>Complete 6 interviews over the course of a 2-week sprint (3 interviews per week)</p></td>
-        </tr>
-    </table>
+    <div class='table_style'>
+        <table style="table-layout: fixed ;">
+            <tr>
+                <th><p>Goal</p></th>
+                <th><p>Plan of Action</p></th>
+                <th><p>Timeline</p></th>
+            </tr>
+            <tr>
+                <td><p>Understand stakeholders’ painpoints, needs, and goals surrounding infant feeding</p></td>
+                <td><p>Conduct 20-minute interviews with new moms from online communities and friends</p></td>
+                <td><p>Complete 6 interviews over the course of a 2-week sprint (3 interviews per week)</p></td>
+            </tr>
+        </table>
+    </div>
 
     <div class='space'></div>
     <div class='space'></div>
@@ -424,5 +429,5 @@
     acting as the intermediary between the design and development teams and planning our goals 
     and course of action to achieve them. I'm excited to see how SimpliFed evolves in the future!
 
-    
+<div class='space'></div>
 <?php include("includes/footer.php"); ?>
