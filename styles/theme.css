@@ -707,4 +707,8 @@ img {
     .table_style td p{
         padding: 3px;
     }
+
+    .list p {
+        padding-left: 3px;
+    }
   }
