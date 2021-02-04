@@ -695,4 +695,16 @@ img {
     .center {
         padding-left: 0%;
     }
+
+    .list li p{
+        padding: 3px;
+    }
+
+    .table_style th p{
+        padding: 0px;
+    }
+
+    .table_style td p{
+        padding: 3px;
+    }
   }
